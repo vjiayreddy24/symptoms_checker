@@ -1,0 +1,11 @@
+pymupdf
+google-genai
+langchain-google-genai
+langchain
+langchain-community
+langchain_experimental
+chromadb
+sentence-transformers
+langchain-huggingface
+hf_xet
+faiss-cpu
