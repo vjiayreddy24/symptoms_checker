@@ -1,4 +1,5 @@
 pymupdf
+pandas
 google-genai
 langchain-google-genai
 langchain
