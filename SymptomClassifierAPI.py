@@ -1,4 +1,4 @@
-# === Helpers (your logic) =====================================================
+   # === Helpers (your logic) =====================================================
 from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import List
@@ -13,7 +13,7 @@ embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-Mi
 from langchain_community.vectorstores import FAISS
 try:
     vectorstore = FAISS.load_local(
-        r"C:\Users\aamreen_quantum-i\OneDrive\Desktop\Symptoms_checker\symptoms_checker\faiss_index_dsm",
+        r"C:\Users\vreddy_quantum-i\Desktop\Symptom_Checker\symptom_checker\faiss_index_dsm",
         embedding_model,
         allow_dangerous_deserialization=True
     )
