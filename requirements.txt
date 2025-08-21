@@ -10,3 +10,4 @@ sentence-transformers
 langchain-huggingface
 hf_xet
 faiss-cpu
+fastapi
