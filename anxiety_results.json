@@ -1,0 +1,130 @@
+{
+  "disorder": "anxiety",
+  "questionnaire": "GAD-7",
+  "questionnaire_data": {
+    "name": "GAD-7",
+    "testname": "GAD-7",
+    "instructions": "Over the last two weeks, how often have you been bothered by the following problems?",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Feeling nervous, anxious, or on edge",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Not being able to stop or control worrying",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Worrying too much about different things",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Trouble relaxing",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Being so restless that it is hard to sit still",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Becoming easily annoyed or irritable",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Feeling afraid, as if something awful might happen",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 8,
+        "text": "If you checked any problems, how difficult have they made it for you to do your work, take care of things at home, or get along with other people?",
+        "options": [
+          "Not difficult at all",
+          "Somewhat difficult",
+          "Very difficult",
+          "Extremely difficult"
+        ]
+      }
+    ]
+  },
+  "responses": [
+    {
+      "question_id": 1,
+      "option_index": 1
+    },
+    {
+      "question_id": 2,
+      "option_index": 0
+    },
+    {
+      "question_id": 3,
+      "option_index": 2
+    },
+    {
+      "question_id": 4,
+      "option_index": 0
+    },
+    {
+      "question_id": 5,
+      "option_index": 1
+    },
+    {
+      "question_id": 6,
+      "option_index": 2
+    },
+    {
+      "question_id": 7,
+      "option_index": 1
+    }
+  ],
+  "evaluation": {
+    "patient_summary": "Your results indicate mild anxiety symptoms. Consult a healthcare provider for personalized advice.",
+    "detailed_report": {
+      "score": 7,
+      "interpretation": "Mild anxiety",
+      "risk_flags": [],
+      "clinical_notes": []
+    }
+  }
+}

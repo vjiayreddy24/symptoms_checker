@@ -13,7 +13,7 @@ def book_appointment(user_id: int):
         "ASRS": "ADHD",
         "GAD-7": "Anxiety",
         "PHQ-9": "Depression",
-        "Y-BOCS": "OCD",
+        "Y-BOCS": "OCD",   
         "PCL-5": "PTSD",
         "AUDIT": "Alcohol Use Disorder",
         "DAST": "Drug Use Disorder",
@@ -22,7 +22,7 @@ def book_appointment(user_id: int):
         "EAT-26": "Eating Disorders"
     }
 
-    df = pd.read_csv(r"C:\Users\aamreen_quantum-i\OneDrive\Desktop\Symptoms_checker\symptoms_checker\UserData.csv")
+    df = pd.read_csv(r"C:\Users\vreddy_quantum-i\Desktop\Symptom_Checker\UserData.csv")
     df.columns = df.columns.str.strip()
 
     if user_id not in df["User ID"].values:
@@ -55,7 +55,7 @@ def book_appointment(user_id: int):
     }
 
 # ---------------- FASTAPI ---------------- #
-doctors_df = pd.read_csv(r"C:\Users\aamreen_quantum-i\OneDrive\Desktop\Symptoms_checker\symptoms_checker\Data\doctor_data.csv")
+doctors_df = pd.read_csv(r"C:\Users\vreddy_quantum-i\Desktop\Symptom_Checker\Data\doctor_data.csv")
 doctors_df.columns = doctors_df.columns.str.strip()
 
 class AppointmentRequest(BaseModel):
