@@ -56,7 +56,7 @@ def book_appointment(user_id: int,test_results: dict):
         "ASRS": "ADHD",
         "GAD-7": "Anxiety",
         "PHQ-9": "Depression",
-        "Y-BOCS": "OCD",
+        "Y-BOCS": "OCD",   
         "PCL-5": "PTSD",
         "AUDIT": "Alcohol Use Disorder",
         "DAST": "Drug Use Disorder",
@@ -65,8 +65,13 @@ def book_appointment(user_id: int,test_results: dict):
         "EAT-26": "Eating Disorders"
     }
 
+<<<<<<< HEAD
     # df = pd.read_csv(r"C:\Users\aamreen_quantum-i\OneDrive\Desktop\Symptoms_checker\symptoms_checker\UserData.csv")
     # df.columns = df.columns.str.strip()
+=======
+    df = pd.read_csv(r"C:\Users\vreddy_quantum-i\Desktop\Symptom_Checker\UserData.csv")
+    df.columns = df.columns.str.strip()
+>>>>>>> 609ae833649b5e40c5e85b03a6e0f9110ac7371d
 
     # if user_id not in df["User ID"].values:
     #     return {"error": "❌ User not found."}
@@ -101,7 +106,7 @@ def book_appointment(user_id: int,test_results: dict):
     }
 
 # ---------------- FASTAPI ---------------- #
-doctors_df = pd.read_csv(r"C:\Users\aamreen_quantum-i\OneDrive\Desktop\Symptoms_checker\symptoms_checker\Data\doctor_data.csv")
+doctors_df = pd.read_csv(r"C:\Users\vreddy_quantum-i\Desktop\Symptom_Checker\Data\doctor_data.csv")
 doctors_df.columns = doctors_df.columns.str.strip()
 
 class AppointmentRequest(BaseModel):
