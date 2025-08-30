@@ -6,7 +6,7 @@ from datetime import datetime
 app = FastAPI(title="Appointment Scheduler")
 
 # Load doctor data
-doctors_df = pd.read_csv(r"C:\Users\aamreen_quantum-i\OneDrive\Desktop\Symptoms_checker\symptoms_checker\Data\doctor_data.csv")  # Save your table as CSV (Doctor ID,...)
+doctors_df = pd.read_csv(r"C:\Users\aamreen_quantum-i\OneDrive\Desktop\Symptoms_checker\symptoms_checker\CSV Data\doctors.csv")  # Save your table as CSV (Doctor ID,...)
 
 class AppointmentRequest(BaseModel):
     department: str
@@ -24,26 +24,21 @@ def find_doctors(req: AppointmentRequest):
 
     # Step 2: Filter doctors by department + disorder + day
     filtered = doctors_df[
-        (doctors_df["Specialization"].str.lower() == req.department.lower()) &
-        (doctors_df["Disorder"].str.lower() == req.disorder.lower()) &
+        (doctors_df["Department"].str.lower() == req.department.lower()) &
         (doctors_df["Available Days"].str.contains(weekday))
     ]
 
     if filtered.empty:
-        filtered = doctors_df[
-            (doctors_df["Specialization"].str.lower() == req.department.lower()) &
-            (doctors_df["Available Days"].str.contains(weekday))]
-        return filtered[:3]
+        return {"message": "No doctors available for this department on the given day."}
 
     
     # Step 3: Build response
     doctors = []
-    for _, row in filtered.iterrows():
+    for _, row in filtered.head(3).iterrows():
         doctors.append({
             "doctor_id": row["Doctor ID"],
-            "doctor_name": row["Doctor Name"],
-            "specialization": row["Specialization"],
-            "disorder": row["Disorder"],
+            "doctor_name": row["Name"],
+            "specialization": row["Department"],
             "day": weekday,
             "available_slots": row["Available Slots"].split(",")
         })
