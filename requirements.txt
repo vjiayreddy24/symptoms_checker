@@ -11,3 +11,5 @@ langchain-huggingface
 hf_xet
 faiss-cpu
 fastapi
+psycopg2-binary
+sqlalchemy
