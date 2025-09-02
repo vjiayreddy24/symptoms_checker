@@ -9,20 +9,26 @@ app = FastAPI(title="Appointment Scheduler")
 # Standardization map
 STANDARDIZATION_MAP = {
     "Minimal": [
-        "Minimal", "Low Risk", "None", "Negative", "Unlikely", 
-        "No significant symptoms", "Below threshold"
+        "Minimal", "Low Risk", "None", "Negative", "Subclinical", "no problems","abstainer",
+        "No significant symptoms", "Below threshold","Unlikely to need assessment","Unlikely BPD"
     ],
     "Mild": [
-        "Mild", "Mild symptoms", "Slight", "Mild risk", "Positive (mild)"
+        "Mild", "Mild symptoms", "Slight","low level", "Mild risk", "Positive (mild)","Insufficient evidence for ADHD diagnosis",
+        "low-risk","Unlikely PTSD","Negative screen","Low risk"
     ],
     "Moderate": [
-        "Moderate", "Moderately Severe", "Moderate risk", "Positive (moderate)", 
-        "Somewhat likely", "Borderline", "At risk"
+        "Moderate", "Moderately Severe", "moderate level (likely abuse)", "Positive (moderate)", 
+        "Somewhat likely", "Borderline range", "likely alcohol dependence","Possible risk",
+        "At risk","May benefit from full diagnostic assessment","Positive screen for bipolar disorder"
     ],
     "Severe": [
-        "Severe", "High Risk", "Very Severe", "Strongly Positive", "Likely", 
+        "Severe", "High Risk", "severe level", "Strongly Positive", "Likely", 
         "Clinically significant", "Critical", "Probably severe",
-        "High risk of eating disorder"
+        "substantial level","Likely BPD",
+        "High risk of eating disorder","Consistent with ADHD diagnosis",
+        "hazardous or harmful use","Extreme",
+        "Probable PTSD (clinical interview recommended)",
+
     ]
 }
 
@@ -65,13 +71,8 @@ def book_appointment(user_id: int,test_results: dict):
         "EAT-26": "Eating Disorders"
     }
 
-<<<<<<< HEAD
     # df = pd.read_csv(r"C:\Users\aamreen_quantum-i\OneDrive\Desktop\Symptoms_checker\symptoms_checker\UserData.csv")
     # df.columns = df.columns.str.strip()
-=======
-    df = pd.read_csv(r"C:\Users\vreddy_quantum-i\Desktop\Symptom_Checker\UserData.csv")
-    df.columns = df.columns.str.strip()
->>>>>>> 609ae833649b5e40c5e85b03a6e0f9110ac7371d
 
     # if user_id not in df["User ID"].values:
     #     return {"error": "❌ User not found."}

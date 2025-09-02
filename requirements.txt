@@ -13,3 +13,4 @@ faiss-cpu
 fastapi
 psycopg2-binary
 sqlalchemy
+requests

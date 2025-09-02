@@ -143,7 +143,6 @@ if __name__ == "__main__":
             }
         },
         "date": "2025-09-01",
-        "department": "Psychology",
         "disorder": "ADHD"
     }
 
