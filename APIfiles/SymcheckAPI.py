@@ -1,11 +1,28 @@
-   # === Helpers (your logic) =====================================================
-from fastapi import FastAPI
+# === Helpers (your logic) =====================================================
+from fastapi import APIRouter,FastAPI
 from pydantic import BaseModel
 from typing import List
 import re
 import chromadb
+import os, chromadb
+
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CHROMA_PATH = os.path.join(BASE_DIR, "datafiles", "chroma_db")
+FAISS_PATH = os.path.join(BASE_DIR,  "datafiles", "faiss_index_dsm")
 
 app = FastAPI()
+prefix_router = APIRouter(prefix="/symptom-checker")
+
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # or list of your frontend domains
+    allow_credentials=True,
+    allow_methods=["*"],   # allows POST, GET, OPTIONS, etc.
+    allow_headers=["*"],   # allows Content-Type, Authorization, etc.
+)
 
 from langchain_huggingface import HuggingFaceEmbeddings
 embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
@@ -13,7 +30,7 @@ embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-Mi
 from langchain_community.vectorstores import FAISS
 try:
     vectorstore = FAISS.load_local(
-        r"C:\Users\vreddy_quantum-i\Desktop\Symptom_Checker\symptom_checker\faiss_index_dsm",
+        FAISS_PATH,
         embedding_model,
         allow_dangerous_deserialization=True
     )
@@ -62,17 +79,13 @@ Current Patient Information:
 """
 
 # === Request Models ===
-# === Request Models ===
 class SymptomInput(BaseModel):
     symptom: str
 
-class AnswerInput(BaseModel):
+class DisorderInput(BaseModel):
     symptom: str
     questions: List[str]
     answers: List[str]
-
-class SummaryInput(BaseModel):
-    summary: str
 
 
 # === Helpers ===
@@ -120,7 +133,7 @@ Follow-up Information:
     return (resp.content or "").strip()
 
 def _map_disorder(summary_text: str) -> List[str]:
-    chroma_client = chromadb.PersistentClient(path="./chroma_db")
+    chroma_client = chromadb.PersistentClient(path=CHROMA_PATH)
     collection = chroma_client.get_or_create_collection(name="disorders")
 
     query_vec = embedding_model.embed_query(summary_text)
@@ -138,23 +151,30 @@ def _map_disorder(summary_text: str) -> List[str]:
     return [m["disorder"] for m in results["metadatas"][0][:2]]
 
 # === Endpoints ===
+@prefix_router.get("/primary_symptom")
+def primary_symptom():
+    """Return a fixed question asking for primary symptoms."""
+    return {"question": "Please specify your primary symptoms "}
 
-@app.post("/get_followups")
+@prefix_router.post("/get_followups")
 def get_followups(data: SymptomInput):
     """Generate up to 3 follow-up questions for a given symptom."""
     questions = _generate_followups(data.symptom)
     return {"questions": questions}
 
-@app.post("/summarize")
-def summarize(data: AnswerInput):
-    """Summarize symptom + answers into a clean note."""
-    # regenerate the same followups (to align with answers)
-    summary = _summarize(data.symptom, data.answers, data.questions)
-    return {"summary": summary}
-
-@app.post("/map_disorder")
-def map_disorder_api(data: SummaryInput):
+@prefix_router.post("/map_disorder")
+def map_disorder_api(data: DisorderInput):
     """Map the summarized text to possible disorders."""
     # regenerate followups → summarize → map
-    disorders = _map_disorder(data.summary)
-    return {"summary": data.summary, "possible_disorders": disorders}
+    summary = _summarize(data.symptom, data.questions, data.answers)
+    disorders = _map_disorder(summary)
+    return {"possible_disorders": disorders}
+
+app.include_router(prefix_router)
+
+if __name__ == "__main__":
+   print("🚀 Starting FastAPI on http://127.0.0.1:8001") 
+   uvicorn.run(app, host="127.0.0.1", port=8001, reload=True)
+   print("❌ Uvicorn exited")
+
+
