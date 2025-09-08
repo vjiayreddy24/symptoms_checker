@@ -311,4 +311,56 @@ async def save_appointment_to_postgres(request: Request):
     print("✅ Appointment saved to Postgres!")
     return {"status": "success", "message": "Appointment saved"}
 
+
+def format_date_with_day(date_str):
+    date_obj = datetime.strptime(date_str, "%Y-%m-%d")
+    return date_obj.strftime("%Y-%m-%d (%A)")
+
+from fastapi import APIRouter, Request, HTTPException
+from sqlalchemy import create_engine, text
+from datetime import datetime
+
+@prefix_router.post("/update_appointment_load")
+async def update_appointment_load(request: Request):
+
+    update_data = await request.json()
+    date=update_data["date"]
+    doctor_id=update_data["doctor_details"]["ID"]
+    formatted_date = format_date_with_day(date)
+
+    schema = "BHC"                     
+    user = "postgres"                    
+    password = "12345678"            
+    host = "localhost"
+    port = 5432
+    database = "agentdata"   
+    
+    # Create connection string
+    connection_uri = f"postgresql+psycopg2://{user}:{password}@{host}:{port}/{database}"
+    engine = create_engine(connection_uri)
+
+        # Build and execute the SQL query
+    try:
+        column_name = f'"{formatted_date}"'  # quote the column name
+
+        query = text(f"""
+            UPDATE "{schema}".appointment_load
+            SET {column_name} = (
+                COALESCE(NULLIF({column_name}, 'Leave'), '0')::integer + 1
+            )::text
+            WHERE "Doctor ID" = :doctor_id;
+        """)
+
+        with engine.connect() as conn:
+            result = conn.execute(query, {"doctor_id": doctor_id})
+            conn.commit()
+
+            if result.rowcount == 0:
+                raise HTTPException(status_code=404, detail="Doctor ID not found")
+
+        return {"message": f"✅ Updated Doctor {doctor_id} on {formatted_date}"}
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    
 app.include_router(prefix_router)
