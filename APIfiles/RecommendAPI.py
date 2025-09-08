@@ -266,3 +266,49 @@ def compute_doctor_scores(doctors_df,doctor_availability: dict, patient_gender: 
     top_dr_full = top_dr.merge(doctors_df, on="Doctor ID", how="left")
 
     return top_dr_full[["Name", "Gender", "Department","Available Days", "Available Slots", "FinalScore"]]
+
+import pandas as pd
+from sqlalchemy import create_engine
+from fastapi import Request
+from datetime import datetime
+
+@prefix_router.post("/save_appointment")
+async def save_appointment_to_postgres(request: Request):
+
+    appointment_data = await request.json()
+
+    schema = "BHC"                     
+    user = "postgres"                    
+    password = "12345678"            
+    host = "localhost"
+    port = 5432
+    database = "agentdata"   
+    
+    # Create connection string
+    connection_uri = f"postgresql+psycopg2://{user}:{password}@{host}:{port}/{database}"
+    engine = create_engine(connection_uri)
+
+    # --- Extract data from JSON payload ---
+    # appointment_data = request.json()  # payload dict
+
+    row = {
+        "name": appointment_data["patient_info"]["name"],
+        "age": appointment_data["patient_info"]["age"],
+        "gender": appointment_data["patient_info"]["gender"],
+        "appointment_date": appointment_data["date"],
+        "doctor_name": appointment_data["doctor_details"]["Name"],
+        "department": appointment_data["doctor_details"]["Department"],
+        "time_slots": appointment_data["doctor_details"]["Available Slots"],
+        "booking_timestamp": datetime.now() 
+    }
+
+    # Convert dict → DataFrame (single row)
+    df = pd.DataFrame([row])
+
+    # Append to Postgres table
+    df.to_sql("Appointment_Table", engine, schema=schema, if_exists="append", index=False)
+
+    print("✅ Appointment saved to Postgres!")
+    return {"status": "success", "message": "Appointment saved"}
+
+app.include_router(prefix_router)
