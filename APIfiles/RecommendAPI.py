@@ -270,6 +270,7 @@ def compute_doctor_scores(doctors_df,doctor_availability: dict, patient_gender: 
 import pandas as pd
 from sqlalchemy import create_engine
 from fastapi import Request
+import uuid
 from datetime import datetime
 
 @prefix_router.post("/save_appointment")
@@ -292,6 +293,8 @@ async def save_appointment_to_postgres(request: Request):
     # appointment_data = request.json()  # payload dict
 
     row = {
+        "appointment_id": str(uuid.uuid4()),
+        "patient_id": appointment_data["patient_info"]["id"], 
         "name": appointment_data["patient_info"]["name"],
         "age": appointment_data["patient_info"]["age"],
         "gender": appointment_data["patient_info"]["gender"],
@@ -306,9 +309,7 @@ async def save_appointment_to_postgres(request: Request):
     df = pd.DataFrame([row])
 
     # Append to Postgres table
-    df.to_sql("Appointment_Table", engine, schema=schema, if_exists="append", index=False)
-
-    print("✅ Appointment saved to Postgres!")
+    df.to_sql("appointment_table", engine, schema=schema, if_exists="append", index=False)
     return {"status": "success", "message": "Appointment saved"}
 
 
@@ -328,7 +329,11 @@ async def update_appointment_load(request: Request):
     doctor_id=update_data["doctor_details"]["ID"]
     formatted_date = format_date_with_day(date)
 
-    schema = "BHC"                     
+        # Convert the date to 'yyyy-mm-dd' format
+    try:
+        formatted_date = datetime.strptime(date, "%Y-%m-%d").strftime("%Y-%m-%d")
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid date format. Expected YYYY-MM-DD.")                    
     user = "postgres"                    
     password = "12345678"            
     host = "localhost"
@@ -340,27 +345,28 @@ async def update_appointment_load(request: Request):
     engine = create_engine(connection_uri)
 
         # Build and execute the SQL query
-    try:
-        column_name = f'"{formatted_date}"'  # quote the column name
+    query = text("""
+        UPDATE "BHC".appointment_load
+        SET appointment_load = (
+            CASE 
+                WHEN appointment_load NOT IN ('Not Applicable', 'Leave') 
+                THEN (COALESCE(appointment_load::integer, 0) + 1)::text
+                ELSE appointment_load
+            END
+        )
+        WHERE doctor_id = :doctor_id AND date = :date;
+    """)
 
-        query = text(f"""
-            UPDATE "{schema}".appointment_load
-            SET {column_name} = (
-                COALESCE(NULLIF({column_name}, 'Leave'), '0')::integer + 1
-            )::text
-            WHERE "Doctor ID" = :doctor_id;
-        """)
+    with engine.connect() as conn:
+        result = conn.execute(query, {"doctor_id": doctor_id, "date": formatted_date})
+        conn.commit()
 
-        with engine.connect() as conn:
-            result = conn.execute(query, {"doctor_id": doctor_id})
-            conn.commit()
+        if result.rowcount == 0:
+            raise HTTPException(status_code=404, detail="Doctor ID not found")
 
-            if result.rowcount == 0:
-                raise HTTPException(status_code=404, detail="Doctor ID not found")
+    return {"message": f"✅ Updated Doctor {doctor_id} on {formatted_date}"}
 
-        return {"message": f"✅ Updated Doctor {doctor_id} on {formatted_date}"}
-
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+    # except Exception as e:
+    #     raise HTTPException(status_code=500, detail=str(e))
     
 app.include_router(prefix_router)
