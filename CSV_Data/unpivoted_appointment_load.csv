@@ -1,0 +1,1821 @@
+doctor_id,doctor_name,date,appointment_load
+D001,Dr. Deepak Iyer,2025-08-25,38
+D002,Dr. Kavita Chopra,2025-08-25,Not Applicable
+D003,Dr. Suresh Desai,2025-08-25,Leave
+D004,Dr. Arjun Joshi,2025-08-25,27
+D005,Dr. Karan Mehta,2025-08-25,Not Applicable
+D006,Dr. Meera Verma,2025-08-25,Not Applicable
+D007,Dr. Rahul Joshi,2025-08-25,Not Applicable
+D008,Dr. Manish Kapoor,2025-08-25,28
+D009,Dr. Amit Pandey,2025-08-25,Not Applicable
+D010,Dr. Amit Bansal,2025-08-25,Not Applicable
+D011,Dr. Sneha Kapoor,2025-08-25,Not Applicable
+D012,Dr. Rahul Bansal,2025-08-25,58
+D013,Dr. Ritika Malhotra,2025-08-25,Not Applicable
+D014,Dr. Priya Mishra,2025-08-25,Not Applicable
+D015,Dr. Vikram Desai,2025-08-25,39
+D016,Dr. Kavita Gupta,2025-08-25,46
+D017,Dr. Amit Agarwal,2025-08-25,55
+D018,Dr. Shweta Rao,2025-08-25,Not Applicable
+D019,Dr. Shweta Rao,2025-08-25,60
+D020,Dr. Karan Malhotra,2025-08-25,46
+D001,Dr. Deepak Iyer,2025-08-26,Not Applicable
+D002,Dr. Kavita Chopra,2025-08-26,Not Applicable
+D003,Dr. Suresh Desai,2025-08-26,27
+D004,Dr. Arjun Joshi,2025-08-26,Not Applicable
+D005,Dr. Karan Mehta,2025-08-26,Not Applicable
+D006,Dr. Meera Verma,2025-08-26,51
+D007,Dr. Rahul Joshi,2025-08-26,32
+D008,Dr. Manish Kapoor,2025-08-26,Not Applicable
+D009,Dr. Amit Pandey,2025-08-26,Not Applicable
+D010,Dr. Amit Bansal,2025-08-26,38
+D011,Dr. Sneha Kapoor,2025-08-26,Not Applicable
+D012,Dr. Rahul Bansal,2025-08-26,53
+D013,Dr. Ritika Malhotra,2025-08-26,46
+D014,Dr. Priya Mishra,2025-08-26,41
+D015,Dr. Vikram Desai,2025-08-26,Not Applicable
+D016,Dr. Kavita Gupta,2025-08-26,Not Applicable
+D017,Dr. Amit Agarwal,2025-08-26,Not Applicable
+D018,Dr. Shweta Rao,2025-08-26,Not Applicable
+D019,Dr. Shweta Rao,2025-08-26,Not Applicable
+D020,Dr. Karan Malhotra,2025-08-26,Not Applicable
+D001,Dr. Deepak Iyer,2025-08-27,Not Applicable
+D002,Dr. Kavita Chopra,2025-08-27,36
+D003,Dr. Suresh Desai,2025-08-27,34
+D004,Dr. Arjun Joshi,2025-08-27,20
+D005,Dr. Karan Mehta,2025-08-27,42
+D006,Dr. Meera Verma,2025-08-27,41
+D007,Dr. Rahul Joshi,2025-08-27,Not Applicable
+D008,Dr. Manish Kapoor,2025-08-27,29
+D009,Dr. Amit Pandey,2025-08-27,60
+D010,Dr. Amit Bansal,2025-08-27,Not Applicable
+D011,Dr. Sneha Kapoor,2025-08-27,Not Applicable
+D012,Dr. Rahul Bansal,2025-08-27,57
+D013,Dr. Ritika Malhotra,2025-08-27,Not Applicable
+D014,Dr. Priya Mishra,2025-08-27,61
+D015,Dr. Vikram Desai,2025-08-27,Not Applicable
+D016,Dr. Kavita Gupta,2025-08-27,Not Applicable
+D017,Dr. Amit Agarwal,2025-08-27,Not Applicable
+D018,Dr. Shweta Rao,2025-08-27,30
+D019,Dr. Shweta Rao,2025-08-27,Not Applicable
+D020,Dr. Karan Malhotra,2025-08-27,40
+D001,Dr. Deepak Iyer,2025-08-28,41
+D002,Dr. Kavita Chopra,2025-08-28,45
+D003,Dr. Suresh Desai,2025-08-28,Not Applicable
+D004,Dr. Arjun Joshi,2025-08-28,Not Applicable
+D005,Dr. Karan Mehta,2025-08-28,46
+D006,Dr. Meera Verma,2025-08-28,27
+D007,Dr. Rahul Joshi,2025-08-28,30
+D008,Dr. Manish Kapoor,2025-08-28,39
+D009,Dr. Amit Pandey,2025-08-28,52
+D010,Dr. Amit Bansal,2025-08-28,Not Applicable
+D011,Dr. Sneha Kapoor,2025-08-28,38
+D012,Dr. Rahul Bansal,2025-08-28,Not Applicable
+D013,Dr. Ritika Malhotra,2025-08-28,Not Applicable
+D014,Dr. Priya Mishra,2025-08-28,Not Applicable
+D015,Dr. Vikram Desai,2025-08-28,Leave
+D016,Dr. Kavita Gupta,2025-08-28,50
+D017,Dr. Amit Agarwal,2025-08-28,53
+D018,Dr. Shweta Rao,2025-08-28,26
+D019,Dr. Shweta Rao,2025-08-28,64
+D020,Dr. Karan Malhotra,2025-08-28,Not Applicable
+D001,Dr. Deepak Iyer,2025-08-29,Not Applicable
+D002,Dr. Kavita Chopra,2025-08-29,Not Applicable
+D003,Dr. Suresh Desai,2025-08-29,Not Applicable
+D004,Dr. Arjun Joshi,2025-08-29,Not Applicable
+D005,Dr. Karan Mehta,2025-08-29,Not Applicable
+D006,Dr. Meera Verma,2025-08-29,Not Applicable
+D007,Dr. Rahul Joshi,2025-08-29,Not Applicable
+D008,Dr. Manish Kapoor,2025-08-29,Not Applicable
+D009,Dr. Amit Pandey,2025-08-29,50
+D010,Dr. Amit Bansal,2025-08-29,32
+D011,Dr. Sneha Kapoor,2025-08-29,43
+D012,Dr. Rahul Bansal,2025-08-29,Not Applicable
+D013,Dr. Ritika Malhotra,2025-08-29,33
+D014,Dr. Priya Mishra,2025-08-29,47
+D015,Dr. Vikram Desai,2025-08-29,Not Applicable
+D016,Dr. Kavita Gupta,2025-08-29,41
+D017,Dr. Amit Agarwal,2025-08-29,Leave
+D018,Dr. Shweta Rao,2025-08-29,Not Applicable
+D019,Dr. Shweta Rao,2025-08-29,61
+D020,Dr. Karan Malhotra,2025-08-29,48
+D001,Dr. Deepak Iyer,2025-08-30,31
+D002,Dr. Kavita Chopra,2025-08-30,44
+D003,Dr. Suresh Desai,2025-08-30,Not Applicable
+D004,Dr. Arjun Joshi,2025-08-30,21
+D005,Dr. Karan Mehta,2025-08-30,33
+D006,Dr. Meera Verma,2025-08-30,Not Applicable
+D007,Dr. Rahul Joshi,2025-08-30,25
+D008,Dr. Manish Kapoor,2025-08-30,Not Applicable
+D009,Dr. Amit Pandey,2025-08-30,Not Applicable
+D010,Dr. Amit Bansal,2025-08-30,39
+D011,Dr. Sneha Kapoor,2025-08-30,43
+D012,Dr. Rahul Bansal,2025-08-30,Not Applicable
+D013,Dr. Ritika Malhotra,2025-08-30,43
+D014,Dr. Priya Mishra,2025-08-30,Not Applicable
+D015,Dr. Vikram Desai,2025-08-30,46
+D016,Dr. Kavita Gupta,2025-08-30,Not Applicable
+D017,Dr. Amit Agarwal,2025-08-30,Not Applicable
+D018,Dr. Shweta Rao,2025-08-30,29
+D019,Dr. Shweta Rao,2025-08-30,Not Applicable
+D020,Dr. Karan Malhotra,2025-08-30,Not Applicable
+D001,Dr. Deepak Iyer,2025-08-31,Not Applicable
+D002,Dr. Kavita Chopra,2025-08-31,Not Applicable
+D003,Dr. Suresh Desai,2025-08-31,Not Applicable
+D004,Dr. Arjun Joshi,2025-08-31,Not Applicable
+D005,Dr. Karan Mehta,2025-08-31,Not Applicable
+D006,Dr. Meera Verma,2025-08-31,Not Applicable
+D007,Dr. Rahul Joshi,2025-08-31,Not Applicable
+D008,Dr. Manish Kapoor,2025-08-31,Not Applicable
+D009,Dr. Amit Pandey,2025-08-31,Not Applicable
+D010,Dr. Amit Bansal,2025-08-31,Not Applicable
+D011,Dr. Sneha Kapoor,2025-08-31,Not Applicable
+D012,Dr. Rahul Bansal,2025-08-31,Not Applicable
+D013,Dr. Ritika Malhotra,2025-08-31,Not Applicable
+D014,Dr. Priya Mishra,2025-08-31,Not Applicable
+D015,Dr. Vikram Desai,2025-08-31,Not Applicable
+D016,Dr. Kavita Gupta,2025-08-31,Not Applicable
+D017,Dr. Amit Agarwal,2025-08-31,Not Applicable
+D018,Dr. Shweta Rao,2025-08-31,Not Applicable
+D019,Dr. Shweta Rao,2025-08-31,Not Applicable
+D020,Dr. Karan Malhotra,2025-08-31,Not Applicable
+D001,Dr. Deepak Iyer,2025-09-01,Leave
+D002,Dr. Kavita Chopra,2025-09-01,Not Applicable
+D003,Dr. Suresh Desai,2025-09-01,Leave
+D004,Dr. Arjun Joshi,2025-09-01,18
+D005,Dr. Karan Mehta,2025-09-01,Not Applicable
+D006,Dr. Meera Verma,2025-09-01,Not Applicable
+D007,Dr. Rahul Joshi,2025-09-01,Not Applicable
+D008,Dr. Manish Kapoor,2025-09-01,25
+D009,Dr. Amit Pandey,2025-09-01,Not Applicable
+D010,Dr. Amit Bansal,2025-09-01,Not Applicable
+D011,Dr. Sneha Kapoor,2025-09-01,Not Applicable
+D012,Dr. Rahul Bansal,2025-09-01,41
+D013,Dr. Ritika Malhotra,2025-09-01,Not Applicable
+D014,Dr. Priya Mishra,2025-09-01,Not Applicable
+D015,Dr. Vikram Desai,2025-09-01,32
+D016,Dr. Kavita Gupta,2025-09-01,49
+D017,Dr. Amit Agarwal,2025-09-01,Leave
+D018,Dr. Shweta Rao,2025-09-01,Not Applicable
+D019,Dr. Shweta Rao,2025-09-01,53
+D020,Dr. Karan Malhotra,2025-09-01,35
+D001,Dr. Deepak Iyer,2025-09-02,Not Applicable
+D002,Dr. Kavita Chopra,2025-09-02,Not Applicable
+D003,Dr. Suresh Desai,2025-09-02,35
+D004,Dr. Arjun Joshi,2025-09-02,Not Applicable
+D005,Dr. Karan Mehta,2025-09-02,Not Applicable
+D006,Dr. Meera Verma,2025-09-02,37
+D007,Dr. Rahul Joshi,2025-09-02,18
+D008,Dr. Manish Kapoor,2025-09-02,Not Applicable
+D009,Dr. Amit Pandey,2025-09-02,Not Applicable
+D010,Dr. Amit Bansal,2025-09-02,Leave
+D011,Dr. Sneha Kapoor,2025-09-02,Not Applicable
+D012,Dr. Rahul Bansal,2025-09-02,51
+D013,Dr. Ritika Malhotra,2025-09-02,36
+D014,Dr. Priya Mishra,2025-09-02,49
+D015,Dr. Vikram Desai,2025-09-02,Not Applicable
+D016,Dr. Kavita Gupta,2025-09-02,Not Applicable
+D017,Dr. Amit Agarwal,2025-09-02,Not Applicable
+D018,Dr. Shweta Rao,2025-09-02,Not Applicable
+D019,Dr. Shweta Rao,2025-09-02,Not Applicable
+D020,Dr. Karan Malhotra,2025-09-02,Not Applicable
+D001,Dr. Deepak Iyer,2025-09-03,Not Applicable
+D002,Dr. Kavita Chopra,2025-09-03,Leave
+D003,Dr. Suresh Desai,2025-09-03,26
+D004,Dr. Arjun Joshi,2025-09-03,11
+D005,Dr. Karan Mehta,2025-09-03,36
+D006,Dr. Meera Verma,2025-09-03,44
+D007,Dr. Rahul Joshi,2025-09-03,Not Applicable
+D008,Dr. Manish Kapoor,2025-09-03,34
+D009,Dr. Amit Pandey,2025-09-03,47
+D010,Dr. Amit Bansal,2025-09-03,Not Applicable
+D011,Dr. Sneha Kapoor,2025-09-03,Not Applicable
+D012,Dr. Rahul Bansal,2025-09-03,Leave
+D013,Dr. Ritika Malhotra,2025-09-03,Not Applicable
+D014,Dr. Priya Mishra,2025-09-03,57
+D015,Dr. Vikram Desai,2025-09-03,Not Applicable
+D016,Dr. Kavita Gupta,2025-09-03,Not Applicable
+D017,Dr. Amit Agarwal,2025-09-03,Not Applicable
+D018,Dr. Shweta Rao,2025-09-03,21
+D019,Dr. Shweta Rao,2025-09-03,Not Applicable
+D020,Dr. Karan Malhotra,2025-09-03,46
+D001,Dr. Deepak Iyer,2025-09-04,32
+D002,Dr. Kavita Chopra,2025-09-04,Leave
+D003,Dr. Suresh Desai,2025-09-04,Not Applicable
+D004,Dr. Arjun Joshi,2025-09-04,Not Applicable
+D005,Dr. Karan Mehta,2025-09-04,30
+D006,Dr. Meera Verma,2025-09-04,36
+D007,Dr. Rahul Joshi,2025-09-04,33
+D008,Dr. Manish Kapoor,2025-09-04,25
+D009,Dr. Amit Pandey,2025-09-04,53
+D010,Dr. Amit Bansal,2025-09-04,Not Applicable
+D011,Dr. Sneha Kapoor,2025-09-04,45
+D012,Dr. Rahul Bansal,2025-09-04,Not Applicable
+D013,Dr. Ritika Malhotra,2025-09-04,Not Applicable
+D014,Dr. Priya Mishra,2025-09-04,Not Applicable
+D015,Dr. Vikram Desai,2025-09-04,26
+D016,Dr. Kavita Gupta,2025-09-04,32
+D017,Dr. Amit Agarwal,2025-09-04,37
+D018,Dr. Shweta Rao,2025-09-04,23
+D019,Dr. Shweta Rao,2025-09-04,51
+D020,Dr. Karan Malhotra,2025-09-04,Not Applicable
+D001,Dr. Deepak Iyer,2025-09-05,Not Applicable
+D002,Dr. Kavita Chopra,2025-09-05,Not Applicable
+D003,Dr. Suresh Desai,2025-09-05,Not Applicable
+D004,Dr. Arjun Joshi,2025-09-05,Not Applicable
+D005,Dr. Karan Mehta,2025-09-05,Not Applicable
+D006,Dr. Meera Verma,2025-09-05,Not Applicable
+D007,Dr. Rahul Joshi,2025-09-05,Not Applicable
+D008,Dr. Manish Kapoor,2025-09-05,Not Applicable
+D009,Dr. Amit Pandey,2025-09-05,50
+D010,Dr. Amit Bansal,2025-09-05,40
+D011,Dr. Sneha Kapoor,2025-09-05,26
+D012,Dr. Rahul Bansal,2025-09-05,Not Applicable
+D013,Dr. Ritika Malhotra,2025-09-05,Leave
+D014,Dr. Priya Mishra,2025-09-05,51
+D015,Dr. Vikram Desai,2025-09-05,Not Applicable
+D016,Dr. Kavita Gupta,2025-09-05,45
+D017,Dr. Amit Agarwal,2025-09-05,51
+D018,Dr. Shweta Rao,2025-09-05,Not Applicable
+D019,Dr. Shweta Rao,2025-09-05,55
+D020,Dr. Karan Malhotra,2025-09-05,34
+D001,Dr. Deepak Iyer,2025-09-06,30
+D002,Dr. Kavita Chopra,2025-09-06,40
+D003,Dr. Suresh Desai,2025-09-06,Not Applicable
+D004,Dr. Arjun Joshi,2025-09-06,17
+D005,Dr. Karan Mehta,2025-09-06,30
+D006,Dr. Meera Verma,2025-09-06,Not Applicable
+D007,Dr. Rahul Joshi,2025-09-06,30
+D008,Dr. Manish Kapoor,2025-09-06,Not Applicable
+D009,Dr. Amit Pandey,2025-09-06,Not Applicable
+D010,Dr. Amit Bansal,2025-09-06,Leave
+D011,Dr. Sneha Kapoor,2025-09-06,Leave
+D012,Dr. Rahul Bansal,2025-09-06,Not Applicable
+D013,Dr. Ritika Malhotra,2025-09-06,37
+D014,Dr. Priya Mishra,2025-09-06,Not Applicable
+D015,Dr. Vikram Desai,2025-09-06,33
+D016,Dr. Kavita Gupta,2025-09-06,Not Applicable
+D017,Dr. Amit Agarwal,2025-09-06,Not Applicable
+D018,Dr. Shweta Rao,2025-09-06,25
+D019,Dr. Shweta Rao,2025-09-06,Not Applicable
+D020,Dr. Karan Malhotra,2025-09-06,Not Applicable
+D001,Dr. Deepak Iyer,2025-09-07,Not Applicable
+D002,Dr. Kavita Chopra,2025-09-07,Not Applicable
+D003,Dr. Suresh Desai,2025-09-07,Not Applicable
+D004,Dr. Arjun Joshi,2025-09-07,Not Applicable
+D005,Dr. Karan Mehta,2025-09-07,Not Applicable
+D006,Dr. Meera Verma,2025-09-07,Not Applicable
+D007,Dr. Rahul Joshi,2025-09-07,Not Applicable
+D008,Dr. Manish Kapoor,2025-09-07,Not Applicable
+D009,Dr. Amit Pandey,2025-09-07,Not Applicable
+D010,Dr. Amit Bansal,2025-09-07,Not Applicable
+D011,Dr. Sneha Kapoor,2025-09-07,Not Applicable
+D012,Dr. Rahul Bansal,2025-09-07,Not Applicable
+D013,Dr. Ritika Malhotra,2025-09-07,Not Applicable
+D014,Dr. Priya Mishra,2025-09-07,Not Applicable
+D015,Dr. Vikram Desai,2025-09-07,Not Applicable
+D016,Dr. Kavita Gupta,2025-09-07,Not Applicable
+D017,Dr. Amit Agarwal,2025-09-07,Not Applicable
+D018,Dr. Shweta Rao,2025-09-07,Not Applicable
+D019,Dr. Shweta Rao,2025-09-07,Not Applicable
+D020,Dr. Karan Malhotra,2025-09-07,Not Applicable
+D001,Dr. Deepak Iyer,2025-09-08,Leave
+D002,Dr. Kavita Chopra,2025-09-08,Not Applicable
+D003,Dr. Suresh Desai,2025-09-08,13
+D004,Dr. Arjun Joshi,2025-09-08,18
+D005,Dr. Karan Mehta,2025-09-08,Not Applicable
+D006,Dr. Meera Verma,2025-09-08,Not Applicable
+D007,Dr. Rahul Joshi,2025-09-08,Not Applicable
+D008,Dr. Manish Kapoor,2025-09-08,22
+D009,Dr. Amit Pandey,2025-09-08,Not Applicable
+D010,Dr. Amit Bansal,2025-09-08,Not Applicable
+D011,Dr. Sneha Kapoor,2025-09-08,Not Applicable
+D012,Dr. Rahul Bansal,2025-09-08,49
+D013,Dr. Ritika Malhotra,2025-09-08,Not Applicable
+D014,Dr. Priya Mishra,2025-09-08,Not Applicable
+D015,Dr. Vikram Desai,2025-09-08,35
+D016,Dr. Kavita Gupta,2025-09-08,Leave
+D017,Dr. Amit Agarwal,2025-09-08,43
+D018,Dr. Shweta Rao,2025-09-08,Not Applicable
+D019,Dr. Shweta Rao,2025-09-08,Leave
+D020,Dr. Karan Malhotra,2025-09-08,32
+D001,Dr. Deepak Iyer,2025-09-09,Not Applicable
+D002,Dr. Kavita Chopra,2025-09-09,Not Applicable
+D003,Dr. Suresh Desai,2025-09-09,26
+D004,Dr. Arjun Joshi,2025-09-09,Not Applicable
+D005,Dr. Karan Mehta,2025-09-09,Not Applicable
+D006,Dr. Meera Verma,2025-09-09,Leave
+D007,Dr. Rahul Joshi,2025-09-09,26
+D008,Dr. Manish Kapoor,2025-09-09,Not Applicable
+D009,Dr. Amit Pandey,2025-09-09,Not Applicable
+D010,Dr. Amit Bansal,2025-09-09,33
+D011,Dr. Sneha Kapoor,2025-09-09,Not Applicable
+D012,Dr. Rahul Bansal,2025-09-09,51
+D013,Dr. Ritika Malhotra,2025-09-09,29
+D014,Dr. Priya Mishra,2025-09-09,39
+D015,Dr. Vikram Desai,2025-09-09,Not Applicable
+D016,Dr. Kavita Gupta,2025-09-09,Not Applicable
+D017,Dr. Amit Agarwal,2025-09-09,Not Applicable
+D018,Dr. Shweta Rao,2025-09-09,Not Applicable
+D019,Dr. Shweta Rao,2025-09-09,Not Applicable
+D020,Dr. Karan Malhotra,2025-09-09,Not Applicable
+D001,Dr. Deepak Iyer,2025-09-10,Not Applicable
+D002,Dr. Kavita Chopra,2025-09-10,42
+D003,Dr. Suresh Desai,2025-09-10,13
+D004,Dr. Arjun Joshi,2025-09-10,19
+D005,Dr. Karan Mehta,2025-09-10,35
+D006,Dr. Meera Verma,2025-09-10,35
+D007,Dr. Rahul Joshi,2025-09-10,Not Applicable
+D008,Dr. Manish Kapoor,2025-09-10,28
+D009,Dr. Amit Pandey,2025-09-10,40
+D010,Dr. Amit Bansal,2025-09-10,Not Applicable
+D011,Dr. Sneha Kapoor,2025-09-10,Not Applicable
+D012,Dr. Rahul Bansal,2025-09-10,44
+D013,Dr. Ritika Malhotra,2025-09-10,Not Applicable
+D014,Dr. Priya Mishra,2025-09-10,43
+D015,Dr. Vikram Desai,2025-09-10,Not Applicable
+D016,Dr. Kavita Gupta,2025-09-10,Not Applicable
+D017,Dr. Amit Agarwal,2025-09-10,Not Applicable
+D018,Dr. Shweta Rao,2025-09-10,30
+D019,Dr. Shweta Rao,2025-09-10,Not Applicable
+D020,Dr. Karan Malhotra,2025-09-10,34
+D001,Dr. Deepak Iyer,2025-09-11,33
+D002,Dr. Kavita Chopra,2025-09-11,46
+D003,Dr. Suresh Desai,2025-09-11,Not Applicable
+D004,Dr. Arjun Joshi,2025-09-11,Not Applicable
+D005,Dr. Karan Mehta,2025-09-11,32
+D006,Dr. Meera Verma,2025-09-11,41
+D007,Dr. Rahul Joshi,2025-09-11,17
+D008,Dr. Manish Kapoor,2025-09-11,24
+D009,Dr. Amit Pandey,2025-09-11,51
+D010,Dr. Amit Bansal,2025-09-11,Not Applicable
+D011,Dr. Sneha Kapoor,2025-09-11,47
+D012,Dr. Rahul Bansal,2025-09-11,Not Applicable
+D013,Dr. Ritika Malhotra,2025-09-11,Not Applicable
+D014,Dr. Priya Mishra,2025-09-11,Not Applicable
+D015,Dr. Vikram Desai,2025-09-11,36
+D016,Dr. Kavita Gupta,2025-09-11,40
+D017,Dr. Amit Agarwal,2025-09-11,Leave
+D018,Dr. Shweta Rao,2025-09-11,29
+D019,Dr. Shweta Rao,2025-09-11,63
+D020,Dr. Karan Malhotra,2025-09-11,Not Applicable
+D001,Dr. Deepak Iyer,2025-09-12,Not Applicable
+D002,Dr. Kavita Chopra,2025-09-12,Not Applicable
+D003,Dr. Suresh Desai,2025-09-12,Not Applicable
+D004,Dr. Arjun Joshi,2025-09-12,Not Applicable
+D005,Dr. Karan Mehta,2025-09-12,Not Applicable
+D006,Dr. Meera Verma,2025-09-12,Not Applicable
+D007,Dr. Rahul Joshi,2025-09-12,Not Applicable
+D008,Dr. Manish Kapoor,2025-09-12,Not Applicable
+D009,Dr. Amit Pandey,2025-09-12,40
+D010,Dr. Amit Bansal,2025-09-12,31
+D011,Dr. Sneha Kapoor,2025-09-12,34
+D012,Dr. Rahul Bansal,2025-09-12,Not Applicable
+D013,Dr. Ritika Malhotra,2025-09-12,32
+D014,Dr. Priya Mishra,2025-09-12,43
+D015,Dr. Vikram Desai,2025-09-12,Not Applicable
+D016,Dr. Kavita Gupta,2025-09-12,34
+D017,Dr. Amit Agarwal,2025-09-12,55
+D018,Dr. Shweta Rao,2025-09-12,Not Applicable
+D019,Dr. Shweta Rao,2025-09-12,54
+D020,Dr. Karan Malhotra,2025-09-12,41
+D001,Dr. Deepak Iyer,2025-09-13,26
+D002,Dr. Kavita Chopra,2025-09-13,41
+D003,Dr. Suresh Desai,2025-09-13,Not Applicable
+D004,Dr. Arjun Joshi,2025-09-13,10
+D005,Dr. Karan Mehta,2025-09-13,29
+D006,Dr. Meera Verma,2025-09-13,Not Applicable
+D007,Dr. Rahul Joshi,2025-09-13,26
+D008,Dr. Manish Kapoor,2025-09-13,Not Applicable
+D009,Dr. Amit Pandey,2025-09-13,Not Applicable
+D010,Dr. Amit Bansal,2025-09-13,30
+D011,Dr. Sneha Kapoor,2025-09-13,31
+D012,Dr. Rahul Bansal,2025-09-13,Not Applicable
+D013,Dr. Ritika Malhotra,2025-09-13,34
+D014,Dr. Priya Mishra,2025-09-13,Not Applicable
+D015,Dr. Vikram Desai,2025-09-13,29
+D016,Dr. Kavita Gupta,2025-09-13,Not Applicable
+D017,Dr. Amit Agarwal,2025-09-13,Not Applicable
+D018,Dr. Shweta Rao,2025-09-13,17
+D019,Dr. Shweta Rao,2025-09-13,Not Applicable
+D020,Dr. Karan Malhotra,2025-09-13,Not Applicable
+D001,Dr. Deepak Iyer,2025-09-14,Not Applicable
+D002,Dr. Kavita Chopra,2025-09-14,Not Applicable
+D003,Dr. Suresh Desai,2025-09-14,Not Applicable
+D004,Dr. Arjun Joshi,2025-09-14,Not Applicable
+D005,Dr. Karan Mehta,2025-09-14,Not Applicable
+D006,Dr. Meera Verma,2025-09-14,Not Applicable
+D007,Dr. Rahul Joshi,2025-09-14,Not Applicable
+D008,Dr. Manish Kapoor,2025-09-14,Not Applicable
+D009,Dr. Amit Pandey,2025-09-14,Not Applicable
+D010,Dr. Amit Bansal,2025-09-14,Not Applicable
+D011,Dr. Sneha Kapoor,2025-09-14,Not Applicable
+D012,Dr. Rahul Bansal,2025-09-14,Not Applicable
+D013,Dr. Ritika Malhotra,2025-09-14,Not Applicable
+D014,Dr. Priya Mishra,2025-09-14,Not Applicable
+D015,Dr. Vikram Desai,2025-09-14,Not Applicable
+D016,Dr. Kavita Gupta,2025-09-14,Not Applicable
+D017,Dr. Amit Agarwal,2025-09-14,Not Applicable
+D018,Dr. Shweta Rao,2025-09-14,Not Applicable
+D019,Dr. Shweta Rao,2025-09-14,Not Applicable
+D020,Dr. Karan Malhotra,2025-09-14,Not Applicable
+D001,Dr. Deepak Iyer,2025-09-15,30
+D002,Dr. Kavita Chopra,2025-09-15,Not Applicable
+D003,Dr. Suresh Desai,2025-09-15,21
+D004,Dr. Arjun Joshi,2025-09-15,7
+D005,Dr. Karan Mehta,2025-09-15,Not Applicable
+D006,Dr. Meera Verma,2025-09-15,Not Applicable
+D007,Dr. Rahul Joshi,2025-09-15,Not Applicable
+D008,Dr. Manish Kapoor,2025-09-15,22
+D009,Dr. Amit Pandey,2025-09-15,Not Applicable
+D010,Dr. Amit Bansal,2025-09-15,Not Applicable
+D011,Dr. Sneha Kapoor,2025-09-15,Not Applicable
+D012,Dr. Rahul Bansal,2025-09-15,Leave
+D013,Dr. Ritika Malhotra,2025-09-15,Not Applicable
+D014,Dr. Priya Mishra,2025-09-15,Not Applicable
+D015,Dr. Vikram Desai,2025-09-15,27
+D016,Dr. Kavita Gupta,2025-09-15,36
+D017,Dr. Amit Agarwal,2025-09-15,38
+D018,Dr. Shweta Rao,2025-09-15,Not Applicable
+D019,Dr. Shweta Rao,2025-09-15,57
+D020,Dr. Karan Malhotra,2025-09-15,32
+D001,Dr. Deepak Iyer,2025-09-16,Not Applicable
+D002,Dr. Kavita Chopra,2025-09-16,Not Applicable
+D003,Dr. Suresh Desai,2025-09-16,Leave
+D004,Dr. Arjun Joshi,2025-09-16,Not Applicable
+D005,Dr. Karan Mehta,2025-09-16,Not Applicable
+D006,Dr. Meera Verma,2025-09-16,42
+D007,Dr. Rahul Joshi,2025-09-16,20
+D008,Dr. Manish Kapoor,2025-09-16,Not Applicable
+D009,Dr. Amit Pandey,2025-09-16,Not Applicable
+D010,Dr. Amit Bansal,2025-09-16,Leave
+D011,Dr. Sneha Kapoor,2025-09-16,Not Applicable
+D012,Dr. Rahul Bansal,2025-09-16,38
+D013,Dr. Ritika Malhotra,2025-09-16,20
+D014,Dr. Priya Mishra,2025-09-16,44
+D015,Dr. Vikram Desai,2025-09-16,Not Applicable
+D016,Dr. Kavita Gupta,2025-09-16,Not Applicable
+D017,Dr. Amit Agarwal,2025-09-16,Not Applicable
+D018,Dr. Shweta Rao,2025-09-16,Not Applicable
+D019,Dr. Shweta Rao,2025-09-16,Not Applicable
+D020,Dr. Karan Malhotra,2025-09-16,Not Applicable
+D001,Dr. Deepak Iyer,2025-09-17,Not Applicable
+D002,Dr. Kavita Chopra,2025-09-17,37
+D003,Dr. Suresh Desai,2025-09-17,20
+D004,Dr. Arjun Joshi,2025-09-17,Leave
+D005,Dr. Karan Mehta,2025-09-17,26
+D006,Dr. Meera Verma,2025-09-17,33
+D007,Dr. Rahul Joshi,2025-09-17,Not Applicable
+D008,Dr. Manish Kapoor,2025-09-17,20
+D009,Dr. Amit Pandey,2025-09-17,48
+D010,Dr. Amit Bansal,2025-09-17,Not Applicable
+D011,Dr. Sneha Kapoor,2025-09-17,Not Applicable
+D012,Dr. Rahul Bansal,2025-09-17,Leave
+D013,Dr. Ritika Malhotra,2025-09-17,Not Applicable
+D014,Dr. Priya Mishra,2025-09-17,46
+D015,Dr. Vikram Desai,2025-09-17,Not Applicable
+D016,Dr. Kavita Gupta,2025-09-17,Not Applicable
+D017,Dr. Amit Agarwal,2025-09-17,Not Applicable
+D018,Dr. Shweta Rao,2025-09-17,22
+D019,Dr. Shweta Rao,2025-09-17,Not Applicable
+D020,Dr. Karan Malhotra,2025-09-17,38
+D001,Dr. Deepak Iyer,2025-09-18,26
+D002,Dr. Kavita Chopra,2025-09-18,39
+D003,Dr. Suresh Desai,2025-09-18,Not Applicable
+D004,Dr. Arjun Joshi,2025-09-18,Not Applicable
+D005,Dr. Karan Mehta,2025-09-18,27
+D006,Dr. Meera Verma,2025-09-18,35
+D007,Dr. Rahul Joshi,2025-09-18,21
+D008,Dr. Manish Kapoor,2025-09-18,15
+D009,Dr. Amit Pandey,2025-09-18,34
+D010,Dr. Amit Bansal,2025-09-18,Not Applicable
+D011,Dr. Sneha Kapoor,2025-09-18,38
+D012,Dr. Rahul Bansal,2025-09-18,Not Applicable
+D013,Dr. Ritika Malhotra,2025-09-18,Not Applicable
+D014,Dr. Priya Mishra,2025-09-18,Not Applicable
+D015,Dr. Vikram Desai,2025-09-18,24
+D016,Dr. Kavita Gupta,2025-09-18,39
+D017,Dr. Amit Agarwal,2025-09-18,45
+D018,Dr. Shweta Rao,2025-09-18,6
+D019,Dr. Shweta Rao,2025-09-18,49
+D020,Dr. Karan Malhotra,2025-09-18,Not Applicable
+D001,Dr. Deepak Iyer,2025-09-19,Not Applicable
+D002,Dr. Kavita Chopra,2025-09-19,Not Applicable
+D003,Dr. Suresh Desai,2025-09-19,Not Applicable
+D004,Dr. Arjun Joshi,2025-09-19,Not Applicable
+D005,Dr. Karan Mehta,2025-09-19,Not Applicable
+D006,Dr. Meera Verma,2025-09-19,Not Applicable
+D007,Dr. Rahul Joshi,2025-09-19,Not Applicable
+D008,Dr. Manish Kapoor,2025-09-19,Not Applicable
+D009,Dr. Amit Pandey,2025-09-19,44
+D010,Dr. Amit Bansal,2025-09-19,16
+D011,Dr. Sneha Kapoor,2025-09-19,40
+D012,Dr. Rahul Bansal,2025-09-19,Not Applicable
+D013,Dr. Ritika Malhotra,2025-09-19,37
+D014,Dr. Priya Mishra,2025-09-19,50
+D015,Dr. Vikram Desai,2025-09-19,Not Applicable
+D016,Dr. Kavita Gupta,2025-09-19,Leave
+D017,Dr. Amit Agarwal,2025-09-19,33
+D018,Dr. Shweta Rao,2025-09-19,Not Applicable
+D019,Dr. Shweta Rao,2025-09-19,49
+D020,Dr. Karan Malhotra,2025-09-19,27
+D001,Dr. Deepak Iyer,2025-09-20,25
+D002,Dr. Kavita Chopra,2025-09-20,32
+D003,Dr. Suresh Desai,2025-09-20,Not Applicable
+D004,Dr. Arjun Joshi,2025-09-20,Leave
+D005,Dr. Karan Mehta,2025-09-20,23
+D006,Dr. Meera Verma,2025-09-20,Not Applicable
+D007,Dr. Rahul Joshi,2025-09-20,11
+D008,Dr. Manish Kapoor,2025-09-20,Not Applicable
+D009,Dr. Amit Pandey,2025-09-20,Not Applicable
+D010,Dr. Amit Bansal,2025-09-20,21
+D011,Dr. Sneha Kapoor,2025-09-20,32
+D012,Dr. Rahul Bansal,2025-09-20,Not Applicable
+D013,Dr. Ritika Malhotra,2025-09-20,Leave
+D014,Dr. Priya Mishra,2025-09-20,Not Applicable
+D015,Dr. Vikram Desai,2025-09-20,25
+D016,Dr. Kavita Gupta,2025-09-20,Not Applicable
+D017,Dr. Amit Agarwal,2025-09-20,Not Applicable
+D018,Dr. Shweta Rao,2025-09-20,23
+D019,Dr. Shweta Rao,2025-09-20,Not Applicable
+D020,Dr. Karan Malhotra,2025-09-20,Not Applicable
+D001,Dr. Deepak Iyer,2025-09-21,Not Applicable
+D002,Dr. Kavita Chopra,2025-09-21,Not Applicable
+D003,Dr. Suresh Desai,2025-09-21,Not Applicable
+D004,Dr. Arjun Joshi,2025-09-21,Not Applicable
+D005,Dr. Karan Mehta,2025-09-21,Not Applicable
+D006,Dr. Meera Verma,2025-09-21,Not Applicable
+D007,Dr. Rahul Joshi,2025-09-21,Not Applicable
+D008,Dr. Manish Kapoor,2025-09-21,Not Applicable
+D009,Dr. Amit Pandey,2025-09-21,Not Applicable
+D010,Dr. Amit Bansal,2025-09-21,Not Applicable
+D011,Dr. Sneha Kapoor,2025-09-21,Not Applicable
+D012,Dr. Rahul Bansal,2025-09-21,Not Applicable
+D013,Dr. Ritika Malhotra,2025-09-21,Not Applicable
+D014,Dr. Priya Mishra,2025-09-21,Not Applicable
+D015,Dr. Vikram Desai,2025-09-21,Not Applicable
+D016,Dr. Kavita Gupta,2025-09-21,Not Applicable
+D017,Dr. Amit Agarwal,2025-09-21,Not Applicable
+D018,Dr. Shweta Rao,2025-09-21,Not Applicable
+D019,Dr. Shweta Rao,2025-09-21,Not Applicable
+D020,Dr. Karan Malhotra,2025-09-21,Not Applicable
+D001,Dr. Deepak Iyer,2025-09-22,29
+D002,Dr. Kavita Chopra,2025-09-22,Not Applicable
+D003,Dr. Suresh Desai,2025-09-22,13
+D004,Dr. Arjun Joshi,2025-09-22,Leave
+D005,Dr. Karan Mehta,2025-09-22,Not Applicable
+D006,Dr. Meera Verma,2025-09-22,Not Applicable
+D007,Dr. Rahul Joshi,2025-09-22,Not Applicable
+D008,Dr. Manish Kapoor,2025-09-22,21
+D009,Dr. Amit Pandey,2025-09-22,Not Applicable
+D010,Dr. Amit Bansal,2025-09-22,Not Applicable
+D011,Dr. Sneha Kapoor,2025-09-22,Not Applicable
+D012,Dr. Rahul Bansal,2025-09-22,42
+D013,Dr. Ritika Malhotra,2025-09-22,Not Applicable
+D014,Dr. Priya Mishra,2025-09-22,Not Applicable
+D015,Dr. Vikram Desai,2025-09-22,27
+D016,Dr. Kavita Gupta,2025-09-22,44
+D017,Dr. Amit Agarwal,2025-09-22,33
+D018,Dr. Shweta Rao,2025-09-22,Not Applicable
+D019,Dr. Shweta Rao,2025-09-22,47
+D020,Dr. Karan Malhotra,2025-09-22,32
+D001,Dr. Deepak Iyer,2025-09-23,Not Applicable
+D002,Dr. Kavita Chopra,2025-09-23,Not Applicable
+D003,Dr. Suresh Desai,2025-09-23,13
+D004,Dr. Arjun Joshi,2025-09-23,Not Applicable
+D005,Dr. Karan Mehta,2025-09-23,Not Applicable
+D006,Dr. Meera Verma,2025-09-23,28
+D007,Dr. Rahul Joshi,2025-09-23,13
+D008,Dr. Manish Kapoor,2025-09-23,Not Applicable
+D009,Dr. Amit Pandey,2025-09-23,Not Applicable
+D010,Dr. Amit Bansal,2025-09-23,24
+D011,Dr. Sneha Kapoor,2025-09-23,Not Applicable
+D012,Dr. Rahul Bansal,2025-09-23,40
+D013,Dr. Ritika Malhotra,2025-09-23,23
+D014,Dr. Priya Mishra,2025-09-23,30
+D015,Dr. Vikram Desai,2025-09-23,Not Applicable
+D016,Dr. Kavita Gupta,2025-09-23,Not Applicable
+D017,Dr. Amit Agarwal,2025-09-23,Not Applicable
+D018,Dr. Shweta Rao,2025-09-23,Not Applicable
+D019,Dr. Shweta Rao,2025-09-23,Not Applicable
+D020,Dr. Karan Malhotra,2025-09-23,Not Applicable
+D001,Dr. Deepak Iyer,2025-09-24,Not Applicable
+D002,Dr. Kavita Chopra,2025-09-24,21
+D003,Dr. Suresh Desai,2025-09-24,17
+D004,Dr. Arjun Joshi,2025-09-24,3
+D005,Dr. Karan Mehta,2025-09-24,20
+D006,Dr. Meera Verma,2025-09-24,29
+D007,Dr. Rahul Joshi,2025-09-24,Not Applicable
+D008,Dr. Manish Kapoor,2025-09-24,18
+D009,Dr. Amit Pandey,2025-09-24,47
+D010,Dr. Amit Bansal,2025-09-24,Not Applicable
+D011,Dr. Sneha Kapoor,2025-09-24,Not Applicable
+D012,Dr. Rahul Bansal,2025-09-24,46
+D013,Dr. Ritika Malhotra,2025-09-24,Not Applicable
+D014,Dr. Priya Mishra,2025-09-24,34
+D015,Dr. Vikram Desai,2025-09-24,Not Applicable
+D016,Dr. Kavita Gupta,2025-09-24,Not Applicable
+D017,Dr. Amit Agarwal,2025-09-24,Not Applicable
+D018,Dr. Shweta Rao,2025-09-24,10
+D019,Dr. Shweta Rao,2025-09-24,Not Applicable
+D020,Dr. Karan Malhotra,2025-09-24,27
+D001,Dr. Deepak Iyer,2025-09-25,26
+D002,Dr. Kavita Chopra,2025-09-25,34
+D003,Dr. Suresh Desai,2025-09-25,Not Applicable
+D004,Dr. Arjun Joshi,2025-09-25,Not Applicable
+D005,Dr. Karan Mehta,2025-09-25,21
+D006,Dr. Meera Verma,2025-09-25,34
+D007,Dr. Rahul Joshi,2025-09-25,14
+D008,Dr. Manish Kapoor,2025-09-25,12
+D009,Dr. Amit Pandey,2025-09-25,36
+D010,Dr. Amit Bansal,2025-09-25,Not Applicable
+D011,Dr. Sneha Kapoor,2025-09-25,Leave
+D012,Dr. Rahul Bansal,2025-09-25,Not Applicable
+D013,Dr. Ritika Malhotra,2025-09-25,Not Applicable
+D014,Dr. Priya Mishra,2025-09-25,Not Applicable
+D015,Dr. Vikram Desai,2025-09-25,Leave
+D016,Dr. Kavita Gupta,2025-09-25,19
+D017,Dr. Amit Agarwal,2025-09-25,42
+D018,Dr. Shweta Rao,2025-09-25,20
+D019,Dr. Shweta Rao,2025-09-25,41
+D020,Dr. Karan Malhotra,2025-09-25,Not Applicable
+D001,Dr. Deepak Iyer,2025-09-26,Not Applicable
+D002,Dr. Kavita Chopra,2025-09-26,Not Applicable
+D003,Dr. Suresh Desai,2025-09-26,Not Applicable
+D004,Dr. Arjun Joshi,2025-09-26,Not Applicable
+D005,Dr. Karan Mehta,2025-09-26,Not Applicable
+D006,Dr. Meera Verma,2025-09-26,Not Applicable
+D007,Dr. Rahul Joshi,2025-09-26,Not Applicable
+D008,Dr. Manish Kapoor,2025-09-26,Not Applicable
+D009,Dr. Amit Pandey,2025-09-26,Leave
+D010,Dr. Amit Bansal,2025-09-26,23
+D011,Dr. Sneha Kapoor,2025-09-26,25
+D012,Dr. Rahul Bansal,2025-09-26,Not Applicable
+D013,Dr. Ritika Malhotra,2025-09-26,28
+D014,Dr. Priya Mishra,2025-09-26,37
+D015,Dr. Vikram Desai,2025-09-26,Not Applicable
+D016,Dr. Kavita Gupta,2025-09-26,29
+D017,Dr. Amit Agarwal,2025-09-26,Leave
+D018,Dr. Shweta Rao,2025-09-26,Not Applicable
+D019,Dr. Shweta Rao,2025-09-26,49
+D020,Dr. Karan Malhotra,2025-09-26,34
+D001,Dr. Deepak Iyer,2025-09-27,21
+D002,Dr. Kavita Chopra,2025-09-27,34
+D003,Dr. Suresh Desai,2025-09-27,Not Applicable
+D004,Dr. Arjun Joshi,2025-09-27,17
+D005,Dr. Karan Mehta,2025-09-27,26
+D006,Dr. Meera Verma,2025-09-27,Not Applicable
+D007,Dr. Rahul Joshi,2025-09-27,Leave
+D008,Dr. Manish Kapoor,2025-09-27,Not Applicable
+D009,Dr. Amit Pandey,2025-09-27,Not Applicable
+D010,Dr. Amit Bansal,2025-09-27,22
+D011,Dr. Sneha Kapoor,2025-09-27,28
+D012,Dr. Rahul Bansal,2025-09-27,Not Applicable
+D013,Dr. Ritika Malhotra,2025-09-27,26
+D014,Dr. Priya Mishra,2025-09-27,Not Applicable
+D015,Dr. Vikram Desai,2025-09-27,17
+D016,Dr. Kavita Gupta,2025-09-27,Not Applicable
+D017,Dr. Amit Agarwal,2025-09-27,Not Applicable
+D018,Dr. Shweta Rao,2025-09-27,17
+D019,Dr. Shweta Rao,2025-09-27,Not Applicable
+D020,Dr. Karan Malhotra,2025-09-27,Not Applicable
+D001,Dr. Deepak Iyer,2025-09-28,Not Applicable
+D002,Dr. Kavita Chopra,2025-09-28,Not Applicable
+D003,Dr. Suresh Desai,2025-09-28,Not Applicable
+D004,Dr. Arjun Joshi,2025-09-28,Not Applicable
+D005,Dr. Karan Mehta,2025-09-28,Not Applicable
+D006,Dr. Meera Verma,2025-09-28,Not Applicable
+D007,Dr. Rahul Joshi,2025-09-28,Not Applicable
+D008,Dr. Manish Kapoor,2025-09-28,Not Applicable
+D009,Dr. Amit Pandey,2025-09-28,Not Applicable
+D010,Dr. Amit Bansal,2025-09-28,Not Applicable
+D011,Dr. Sneha Kapoor,2025-09-28,Not Applicable
+D012,Dr. Rahul Bansal,2025-09-28,Not Applicable
+D013,Dr. Ritika Malhotra,2025-09-28,Not Applicable
+D014,Dr. Priya Mishra,2025-09-28,Not Applicable
+D015,Dr. Vikram Desai,2025-09-28,Not Applicable
+D016,Dr. Kavita Gupta,2025-09-28,Not Applicable
+D017,Dr. Amit Agarwal,2025-09-28,Not Applicable
+D018,Dr. Shweta Rao,2025-09-28,Not Applicable
+D019,Dr. Shweta Rao,2025-09-28,Not Applicable
+D020,Dr. Karan Malhotra,2025-09-28,Not Applicable
+D001,Dr. Deepak Iyer,2025-09-29,26
+D002,Dr. Kavita Chopra,2025-09-29,Not Applicable
+D003,Dr. Suresh Desai,2025-09-29,7
+D004,Dr. Arjun Joshi,2025-09-29,7
+D005,Dr. Karan Mehta,2025-09-29,Not Applicable
+D006,Dr. Meera Verma,2025-09-29,Not Applicable
+D007,Dr. Rahul Joshi,2025-09-29,Not Applicable
+D008,Dr. Manish Kapoor,2025-09-29,13
+D009,Dr. Amit Pandey,2025-09-29,Not Applicable
+D010,Dr. Amit Bansal,2025-09-29,Not Applicable
+D011,Dr. Sneha Kapoor,2025-09-29,Not Applicable
+D012,Dr. Rahul Bansal,2025-09-29,38
+D013,Dr. Ritika Malhotra,2025-09-29,Not Applicable
+D014,Dr. Priya Mishra,2025-09-29,Not Applicable
+D015,Dr. Vikram Desai,2025-09-29,Leave
+D016,Dr. Kavita Gupta,2025-09-29,37
+D017,Dr. Amit Agarwal,2025-09-29,29
+D018,Dr. Shweta Rao,2025-09-29,Not Applicable
+D019,Dr. Shweta Rao,2025-09-29,39
+D020,Dr. Karan Malhotra,2025-09-29,21
+D001,Dr. Deepak Iyer,2025-09-30,Not Applicable
+D002,Dr. Kavita Chopra,2025-09-30,Not Applicable
+D003,Dr. Suresh Desai,2025-09-30,18
+D004,Dr. Arjun Joshi,2025-09-30,Not Applicable
+D005,Dr. Karan Mehta,2025-09-30,Not Applicable
+D006,Dr. Meera Verma,2025-09-30,29
+D007,Dr. Rahul Joshi,2025-09-30,Leave
+D008,Dr. Manish Kapoor,2025-09-30,Not Applicable
+D009,Dr. Amit Pandey,2025-09-30,Not Applicable
+D010,Dr. Amit Bansal,2025-09-30,12
+D011,Dr. Sneha Kapoor,2025-09-30,Not Applicable
+D012,Dr. Rahul Bansal,2025-09-30,Leave
+D013,Dr. Ritika Malhotra,2025-09-30,14
+D014,Dr. Priya Mishra,2025-09-30,44
+D015,Dr. Vikram Desai,2025-09-30,Not Applicable
+D016,Dr. Kavita Gupta,2025-09-30,Not Applicable
+D017,Dr. Amit Agarwal,2025-09-30,Not Applicable
+D018,Dr. Shweta Rao,2025-09-30,Not Applicable
+D019,Dr. Shweta Rao,2025-09-30,Not Applicable
+D020,Dr. Karan Malhotra,2025-09-30,Not Applicable
+D001,Dr. Deepak Iyer,2025-10-01,Not Applicable
+D002,Dr. Kavita Chopra,2025-10-01,26
+D003,Dr. Suresh Desai,2025-10-01,11
+D004,Dr. Arjun Joshi,2025-10-01,6
+D005,Dr. Karan Mehta,2025-10-01,20
+D006,Dr. Meera Verma,2025-10-01,31
+D007,Dr. Rahul Joshi,2025-10-01,Not Applicable
+D008,Dr. Manish Kapoor,2025-10-01,17
+D009,Dr. Amit Pandey,2025-10-01,50
+D010,Dr. Amit Bansal,2025-10-01,Not Applicable
+D011,Dr. Sneha Kapoor,2025-10-01,Not Applicable
+D012,Dr. Rahul Bansal,2025-10-01,53
+D013,Dr. Ritika Malhotra,2025-10-01,Not Applicable
+D014,Dr. Priya Mishra,2025-10-01,32
+D015,Dr. Vikram Desai,2025-10-01,Not Applicable
+D016,Dr. Kavita Gupta,2025-10-01,Not Applicable
+D017,Dr. Amit Agarwal,2025-10-01,Not Applicable
+D018,Dr. Shweta Rao,2025-10-01,6
+D019,Dr. Shweta Rao,2025-10-01,Not Applicable
+D020,Dr. Karan Malhotra,2025-10-01,32
+D001,Dr. Deepak Iyer,2025-10-02,29
+D002,Dr. Kavita Chopra,2025-10-02,29
+D003,Dr. Suresh Desai,2025-10-02,Not Applicable
+D004,Dr. Arjun Joshi,2025-10-02,Not Applicable
+D005,Dr. Karan Mehta,2025-10-02,26
+D006,Dr. Meera Verma,2025-10-02,32
+D007,Dr. Rahul Joshi,2025-10-02,18
+D008,Dr. Manish Kapoor,2025-10-02,9
+D009,Dr. Amit Pandey,2025-10-02,40
+D010,Dr. Amit Bansal,2025-10-02,Not Applicable
+D011,Dr. Sneha Kapoor,2025-10-02,26
+D012,Dr. Rahul Bansal,2025-10-02,Not Applicable
+D013,Dr. Ritika Malhotra,2025-10-02,Not Applicable
+D014,Dr. Priya Mishra,2025-10-02,Not Applicable
+D015,Dr. Vikram Desai,2025-10-02,19
+D016,Dr. Kavita Gupta,2025-10-02,19
+D017,Dr. Amit Agarwal,2025-10-02,Leave
+D018,Dr. Shweta Rao,2025-10-02,2
+D019,Dr. Shweta Rao,2025-10-02,43
+D020,Dr. Karan Malhotra,2025-10-02,Not Applicable
+D001,Dr. Deepak Iyer,2025-10-03,Not Applicable
+D002,Dr. Kavita Chopra,2025-10-03,Not Applicable
+D003,Dr. Suresh Desai,2025-10-03,Not Applicable
+D004,Dr. Arjun Joshi,2025-10-03,Not Applicable
+D005,Dr. Karan Mehta,2025-10-03,Not Applicable
+D006,Dr. Meera Verma,2025-10-03,Not Applicable
+D007,Dr. Rahul Joshi,2025-10-03,Not Applicable
+D008,Dr. Manish Kapoor,2025-10-03,Not Applicable
+D009,Dr. Amit Pandey,2025-10-03,33
+D010,Dr. Amit Bansal,2025-10-03,8
+D011,Dr. Sneha Kapoor,2025-10-03,21
+D012,Dr. Rahul Bansal,2025-10-03,Not Applicable
+D013,Dr. Ritika Malhotra,2025-10-03,19
+D014,Dr. Priya Mishra,2025-10-03,29
+D015,Dr. Vikram Desai,2025-10-03,Not Applicable
+D016,Dr. Kavita Gupta,2025-10-03,33
+D017,Dr. Amit Agarwal,2025-10-03,42
+D018,Dr. Shweta Rao,2025-10-03,Not Applicable
+D019,Dr. Shweta Rao,2025-10-03,45
+D020,Dr. Karan Malhotra,2025-10-03,25
+D001,Dr. Deepak Iyer,2025-10-04,19
+D002,Dr. Kavita Chopra,2025-10-04,28
+D003,Dr. Suresh Desai,2025-10-04,Not Applicable
+D004,Dr. Arjun Joshi,2025-10-04,10
+D005,Dr. Karan Mehta,2025-10-04,19
+D006,Dr. Meera Verma,2025-10-04,Not Applicable
+D007,Dr. Rahul Joshi,2025-10-04,14
+D008,Dr. Manish Kapoor,2025-10-04,Not Applicable
+D009,Dr. Amit Pandey,2025-10-04,Not Applicable
+D010,Dr. Amit Bansal,2025-10-04,8
+D011,Dr. Sneha Kapoor,2025-10-04,20
+D012,Dr. Rahul Bansal,2025-10-04,Not Applicable
+D013,Dr. Ritika Malhotra,2025-10-04,21
+D014,Dr. Priya Mishra,2025-10-04,Not Applicable
+D015,Dr. Vikram Desai,2025-10-04,Leave
+D016,Dr. Kavita Gupta,2025-10-04,Not Applicable
+D017,Dr. Amit Agarwal,2025-10-04,Not Applicable
+D018,Dr. Shweta Rao,2025-10-04,9
+D019,Dr. Shweta Rao,2025-10-04,Not Applicable
+D020,Dr. Karan Malhotra,2025-10-04,Not Applicable
+D001,Dr. Deepak Iyer,2025-10-05,Not Applicable
+D002,Dr. Kavita Chopra,2025-10-05,Not Applicable
+D003,Dr. Suresh Desai,2025-10-05,Not Applicable
+D004,Dr. Arjun Joshi,2025-10-05,Not Applicable
+D005,Dr. Karan Mehta,2025-10-05,Not Applicable
+D006,Dr. Meera Verma,2025-10-05,Not Applicable
+D007,Dr. Rahul Joshi,2025-10-05,Not Applicable
+D008,Dr. Manish Kapoor,2025-10-05,Not Applicable
+D009,Dr. Amit Pandey,2025-10-05,Not Applicable
+D010,Dr. Amit Bansal,2025-10-05,Not Applicable
+D011,Dr. Sneha Kapoor,2025-10-05,Not Applicable
+D012,Dr. Rahul Bansal,2025-10-05,Not Applicable
+D013,Dr. Ritika Malhotra,2025-10-05,Not Applicable
+D014,Dr. Priya Mishra,2025-10-05,Not Applicable
+D015,Dr. Vikram Desai,2025-10-05,Not Applicable
+D016,Dr. Kavita Gupta,2025-10-05,Not Applicable
+D017,Dr. Amit Agarwal,2025-10-05,Not Applicable
+D018,Dr. Shweta Rao,2025-10-05,Not Applicable
+D019,Dr. Shweta Rao,2025-10-05,Not Applicable
+D020,Dr. Karan Malhotra,2025-10-05,Not Applicable
+D001,Dr. Deepak Iyer,2025-10-06,Leave
+D002,Dr. Kavita Chopra,2025-10-06,Not Applicable
+D003,Dr. Suresh Desai,2025-10-06,18
+D004,Dr. Arjun Joshi,2025-10-06,Leave
+D005,Dr. Karan Mehta,2025-10-06,Not Applicable
+D006,Dr. Meera Verma,2025-10-06,Not Applicable
+D007,Dr. Rahul Joshi,2025-10-06,Not Applicable
+D008,Dr. Manish Kapoor,2025-10-06,2
+D009,Dr. Amit Pandey,2025-10-06,Not Applicable
+D010,Dr. Amit Bansal,2025-10-06,Not Applicable
+D011,Dr. Sneha Kapoor,2025-10-06,Not Applicable
+D012,Dr. Rahul Bansal,2025-10-06,29
+D013,Dr. Ritika Malhotra,2025-10-06,Not Applicable
+D014,Dr. Priya Mishra,2025-10-06,Not Applicable
+D015,Dr. Vikram Desai,2025-10-06,23
+D016,Dr. Kavita Gupta,2025-10-06,28
+D017,Dr. Amit Agarwal,2025-10-06,27
+D018,Dr. Shweta Rao,2025-10-06,Not Applicable
+D019,Dr. Shweta Rao,2025-10-06,46
+D020,Dr. Karan Malhotra,2025-10-06,Leave
+D001,Dr. Deepak Iyer,2025-10-07,Not Applicable
+D002,Dr. Kavita Chopra,2025-10-07,Not Applicable
+D003,Dr. Suresh Desai,2025-10-07,18
+D004,Dr. Arjun Joshi,2025-10-07,Not Applicable
+D005,Dr. Karan Mehta,2025-10-07,Not Applicable
+D006,Dr. Meera Verma,2025-10-07,24
+D007,Dr. Rahul Joshi,2025-10-07,6
+D008,Dr. Manish Kapoor,2025-10-07,Not Applicable
+D009,Dr. Amit Pandey,2025-10-07,Not Applicable
+D010,Dr. Amit Bansal,2025-10-07,16
+D011,Dr. Sneha Kapoor,2025-10-07,Not Applicable
+D012,Dr. Rahul Bansal,2025-10-07,40
+D013,Dr. Ritika Malhotra,2025-10-07,24
+D014,Dr. Priya Mishra,2025-10-07,36
+D015,Dr. Vikram Desai,2025-10-07,Not Applicable
+D016,Dr. Kavita Gupta,2025-10-07,Not Applicable
+D017,Dr. Amit Agarwal,2025-10-07,Not Applicable
+D018,Dr. Shweta Rao,2025-10-07,Not Applicable
+D019,Dr. Shweta Rao,2025-10-07,Not Applicable
+D020,Dr. Karan Malhotra,2025-10-07,Not Applicable
+D001,Dr. Deepak Iyer,2025-10-08,Not Applicable
+D002,Dr. Kavita Chopra,2025-10-08,30
+D003,Dr. Suresh Desai,2025-10-08,6
+D004,Dr. Arjun Joshi,2025-10-08,0
+D005,Dr. Karan Mehta,2025-10-08,22
+D006,Dr. Meera Verma,2025-10-08,23
+D007,Dr. Rahul Joshi,2025-10-08,Not Applicable
+D008,Dr. Manish Kapoor,2025-10-08,Leave
+D009,Dr. Amit Pandey,2025-10-08,33
+D010,Dr. Amit Bansal,2025-10-08,Not Applicable
+D011,Dr. Sneha Kapoor,2025-10-08,Not Applicable
+D012,Dr. Rahul Bansal,2025-10-08,38
+D013,Dr. Ritika Malhotra,2025-10-08,Not Applicable
+D014,Dr. Priya Mishra,2025-10-08,34
+D015,Dr. Vikram Desai,2025-10-08,Not Applicable
+D016,Dr. Kavita Gupta,2025-10-08,Not Applicable
+D017,Dr. Amit Agarwal,2025-10-08,Not Applicable
+D018,Dr. Shweta Rao,2025-10-08,15
+D019,Dr. Shweta Rao,2025-10-08,Not Applicable
+D020,Dr. Karan Malhotra,2025-10-08,24
+D001,Dr. Deepak Iyer,2025-10-09,Leave
+D002,Dr. Kavita Chopra,2025-10-09,21
+D003,Dr. Suresh Desai,2025-10-09,Not Applicable
+D004,Dr. Arjun Joshi,2025-10-09,Not Applicable
+D005,Dr. Karan Mehta,2025-10-09,27
+D006,Dr. Meera Verma,2025-10-09,21
+D007,Dr. Rahul Joshi,2025-10-09,3
+D008,Dr. Manish Kapoor,2025-10-09,10
+D009,Dr. Amit Pandey,2025-10-09,33
+D010,Dr. Amit Bansal,2025-10-09,Not Applicable
+D011,Dr. Sneha Kapoor,2025-10-09,23
+D012,Dr. Rahul Bansal,2025-10-09,Not Applicable
+D013,Dr. Ritika Malhotra,2025-10-09,Not Applicable
+D014,Dr. Priya Mishra,2025-10-09,Not Applicable
+D015,Dr. Vikram Desai,2025-10-09,24
+D016,Dr. Kavita Gupta,2025-10-09,29
+D017,Dr. Amit Agarwal,2025-10-09,28
+D018,Dr. Shweta Rao,2025-10-09,8
+D019,Dr. Shweta Rao,2025-10-09,41
+D020,Dr. Karan Malhotra,2025-10-09,Not Applicable
+D001,Dr. Deepak Iyer,2025-10-10,Not Applicable
+D002,Dr. Kavita Chopra,2025-10-10,Not Applicable
+D003,Dr. Suresh Desai,2025-10-10,Not Applicable
+D004,Dr. Arjun Joshi,2025-10-10,Not Applicable
+D005,Dr. Karan Mehta,2025-10-10,Not Applicable
+D006,Dr. Meera Verma,2025-10-10,Not Applicable
+D007,Dr. Rahul Joshi,2025-10-10,Not Applicable
+D008,Dr. Manish Kapoor,2025-10-10,Not Applicable
+D009,Dr. Amit Pandey,2025-10-10,40
+D010,Dr. Amit Bansal,2025-10-10,14
+D011,Dr. Sneha Kapoor,2025-10-10,17
+D012,Dr. Rahul Bansal,2025-10-10,Not Applicable
+D013,Dr. Ritika Malhotra,2025-10-10,19
+D014,Dr. Priya Mishra,2025-10-10,18
+D015,Dr. Vikram Desai,2025-10-10,Not Applicable
+D016,Dr. Kavita Gupta,2025-10-10,27
+D017,Dr. Amit Agarwal,2025-10-10,26
+D018,Dr. Shweta Rao,2025-10-10,Not Applicable
+D019,Dr. Shweta Rao,2025-10-10,36
+D020,Dr. Karan Malhotra,2025-10-10,19
+D001,Dr. Deepak Iyer,2025-10-11,13
+D002,Dr. Kavita Chopra,2025-10-11,24
+D003,Dr. Suresh Desai,2025-10-11,Not Applicable
+D004,Dr. Arjun Joshi,2025-10-11,4
+D005,Dr. Karan Mehta,2025-10-11,Leave
+D006,Dr. Meera Verma,2025-10-11,Not Applicable
+D007,Dr. Rahul Joshi,2025-10-11,11
+D008,Dr. Manish Kapoor,2025-10-11,Not Applicable
+D009,Dr. Amit Pandey,2025-10-11,Not Applicable
+D010,Dr. Amit Bansal,2025-10-11,15
+D011,Dr. Sneha Kapoor,2025-10-11,16
+D012,Dr. Rahul Bansal,2025-10-11,Not Applicable
+D013,Dr. Ritika Malhotra,2025-10-11,11
+D014,Dr. Priya Mishra,2025-10-11,Not Applicable
+D015,Dr. Vikram Desai,2025-10-11,20
+D016,Dr. Kavita Gupta,2025-10-11,Not Applicable
+D017,Dr. Amit Agarwal,2025-10-11,Not Applicable
+D018,Dr. Shweta Rao,2025-10-11,0
+D019,Dr. Shweta Rao,2025-10-11,Not Applicable
+D020,Dr. Karan Malhotra,2025-10-11,Not Applicable
+D001,Dr. Deepak Iyer,2025-10-12,Not Applicable
+D002,Dr. Kavita Chopra,2025-10-12,Not Applicable
+D003,Dr. Suresh Desai,2025-10-12,Not Applicable
+D004,Dr. Arjun Joshi,2025-10-12,Not Applicable
+D005,Dr. Karan Mehta,2025-10-12,Not Applicable
+D006,Dr. Meera Verma,2025-10-12,Not Applicable
+D007,Dr. Rahul Joshi,2025-10-12,Not Applicable
+D008,Dr. Manish Kapoor,2025-10-12,Not Applicable
+D009,Dr. Amit Pandey,2025-10-12,Not Applicable
+D010,Dr. Amit Bansal,2025-10-12,Not Applicable
+D011,Dr. Sneha Kapoor,2025-10-12,Not Applicable
+D012,Dr. Rahul Bansal,2025-10-12,Not Applicable
+D013,Dr. Ritika Malhotra,2025-10-12,Not Applicable
+D014,Dr. Priya Mishra,2025-10-12,Not Applicable
+D015,Dr. Vikram Desai,2025-10-12,Not Applicable
+D016,Dr. Kavita Gupta,2025-10-12,Not Applicable
+D017,Dr. Amit Agarwal,2025-10-12,Not Applicable
+D018,Dr. Shweta Rao,2025-10-12,Not Applicable
+D019,Dr. Shweta Rao,2025-10-12,Not Applicable
+D020,Dr. Karan Malhotra,2025-10-12,Not Applicable
+D001,Dr. Deepak Iyer,2025-10-13,24
+D002,Dr. Kavita Chopra,2025-10-13,Not Applicable
+D003,Dr. Suresh Desai,2025-10-13,9
+D004,Dr. Arjun Joshi,2025-10-13,0
+D005,Dr. Karan Mehta,2025-10-13,Not Applicable
+D006,Dr. Meera Verma,2025-10-13,Not Applicable
+D007,Dr. Rahul Joshi,2025-10-13,Not Applicable
+D008,Dr. Manish Kapoor,2025-10-13,10
+D009,Dr. Amit Pandey,2025-10-13,Not Applicable
+D010,Dr. Amit Bansal,2025-10-13,Not Applicable
+D011,Dr. Sneha Kapoor,2025-10-13,Not Applicable
+D012,Dr. Rahul Bansal,2025-10-13,39
+D013,Dr. Ritika Malhotra,2025-10-13,Not Applicable
+D014,Dr. Priya Mishra,2025-10-13,Not Applicable
+D015,Dr. Vikram Desai,2025-10-13,17
+D016,Dr. Kavita Gupta,2025-10-13,28
+D017,Dr. Amit Agarwal,2025-10-13,Leave
+D018,Dr. Shweta Rao,2025-10-13,Not Applicable
+D019,Dr. Shweta Rao,2025-10-13,40
+D020,Dr. Karan Malhotra,2025-10-13,22
+D001,Dr. Deepak Iyer,2025-10-14,Not Applicable
+D002,Dr. Kavita Chopra,2025-10-14,Not Applicable
+D003,Dr. Suresh Desai,2025-10-14,8
+D004,Dr. Arjun Joshi,2025-10-14,Not Applicable
+D005,Dr. Karan Mehta,2025-10-14,Not Applicable
+D006,Dr. Meera Verma,2025-10-14,18
+D007,Dr. Rahul Joshi,2025-10-14,10
+D008,Dr. Manish Kapoor,2025-10-14,Not Applicable
+D009,Dr. Amit Pandey,2025-10-14,Not Applicable
+D010,Dr. Amit Bansal,2025-10-14,13
+D011,Dr. Sneha Kapoor,2025-10-14,Not Applicable
+D012,Dr. Rahul Bansal,2025-10-14,30
+D013,Dr. Ritika Malhotra,2025-10-14,9
+D014,Dr. Priya Mishra,2025-10-14,24
+D015,Dr. Vikram Desai,2025-10-14,Not Applicable
+D016,Dr. Kavita Gupta,2025-10-14,Not Applicable
+D017,Dr. Amit Agarwal,2025-10-14,Not Applicable
+D018,Dr. Shweta Rao,2025-10-14,Not Applicable
+D019,Dr. Shweta Rao,2025-10-14,Not Applicable
+D020,Dr. Karan Malhotra,2025-10-14,Not Applicable
+D001,Dr. Deepak Iyer,2025-10-15,Not Applicable
+D002,Dr. Kavita Chopra,2025-10-15,17
+D003,Dr. Suresh Desai,2025-10-15,12
+D004,Dr. Arjun Joshi,2025-10-15,3
+D005,Dr. Karan Mehta,2025-10-15,17
+D006,Dr. Meera Verma,2025-10-15,20
+D007,Dr. Rahul Joshi,2025-10-15,Not Applicable
+D008,Dr. Manish Kapoor,2025-10-15,11
+D009,Dr. Amit Pandey,2025-10-15,19
+D010,Dr. Amit Bansal,2025-10-15,Not Applicable
+D011,Dr. Sneha Kapoor,2025-10-15,Not Applicable
+D012,Dr. Rahul Bansal,2025-10-15,37
+D013,Dr. Ritika Malhotra,2025-10-15,Not Applicable
+D014,Dr. Priya Mishra,2025-10-15,26
+D015,Dr. Vikram Desai,2025-10-15,Not Applicable
+D016,Dr. Kavita Gupta,2025-10-15,Not Applicable
+D017,Dr. Amit Agarwal,2025-10-15,Not Applicable
+D018,Dr. Shweta Rao,2025-10-15,8
+D019,Dr. Shweta Rao,2025-10-15,Not Applicable
+D020,Dr. Karan Malhotra,2025-10-15,23
+D001,Dr. Deepak Iyer,2025-10-16,10
+D002,Dr. Kavita Chopra,2025-10-16,17
+D003,Dr. Suresh Desai,2025-10-16,Not Applicable
+D004,Dr. Arjun Joshi,2025-10-16,Not Applicable
+D005,Dr. Karan Mehta,2025-10-16,14
+D006,Dr. Meera Verma,2025-10-16,10
+D007,Dr. Rahul Joshi,2025-10-16,2
+D008,Dr. Manish Kapoor,2025-10-16,9
+D009,Dr. Amit Pandey,2025-10-16,34
+D010,Dr. Amit Bansal,2025-10-16,Not Applicable
+D011,Dr. Sneha Kapoor,2025-10-16,15
+D012,Dr. Rahul Bansal,2025-10-16,Not Applicable
+D013,Dr. Ritika Malhotra,2025-10-16,Not Applicable
+D014,Dr. Priya Mishra,2025-10-16,Not Applicable
+D015,Dr. Vikram Desai,2025-10-16,7
+D016,Dr. Kavita Gupta,2025-10-16,18
+D017,Dr. Amit Agarwal,2025-10-16,23
+D018,Dr. Shweta Rao,2025-10-16,1
+D019,Dr. Shweta Rao,2025-10-16,35
+D020,Dr. Karan Malhotra,2025-10-16,Not Applicable
+D001,Dr. Deepak Iyer,2025-10-17,Not Applicable
+D002,Dr. Kavita Chopra,2025-10-17,Not Applicable
+D003,Dr. Suresh Desai,2025-10-17,Not Applicable
+D004,Dr. Arjun Joshi,2025-10-17,Not Applicable
+D005,Dr. Karan Mehta,2025-10-17,Not Applicable
+D006,Dr. Meera Verma,2025-10-17,Not Applicable
+D007,Dr. Rahul Joshi,2025-10-17,Not Applicable
+D008,Dr. Manish Kapoor,2025-10-17,Not Applicable
+D009,Dr. Amit Pandey,2025-10-17,33
+D010,Dr. Amit Bansal,2025-10-17,Leave
+D011,Dr. Sneha Kapoor,2025-10-17,21
+D012,Dr. Rahul Bansal,2025-10-17,Not Applicable
+D013,Dr. Ritika Malhotra,2025-10-17,13
+D014,Dr. Priya Mishra,2025-10-17,Leave
+D015,Dr. Vikram Desai,2025-10-17,Not Applicable
+D016,Dr. Kavita Gupta,2025-10-17,22
+D017,Dr. Amit Agarwal,2025-10-17,31
+D018,Dr. Shweta Rao,2025-10-17,Not Applicable
+D019,Dr. Shweta Rao,2025-10-17,35
+D020,Dr. Karan Malhotra,2025-10-17,14
+D001,Dr. Deepak Iyer,2025-10-18,13
+D002,Dr. Kavita Chopra,2025-10-18,11
+D003,Dr. Suresh Desai,2025-10-18,Not Applicable
+D004,Dr. Arjun Joshi,2025-10-18,3
+D005,Dr. Karan Mehta,2025-10-18,18
+D006,Dr. Meera Verma,2025-10-18,Not Applicable
+D007,Dr. Rahul Joshi,2025-10-18,2
+D008,Dr. Manish Kapoor,2025-10-18,Not Applicable
+D009,Dr. Amit Pandey,2025-10-18,Not Applicable
+D010,Dr. Amit Bansal,2025-10-18,7
+D011,Dr. Sneha Kapoor,2025-10-18,11
+D012,Dr. Rahul Bansal,2025-10-18,Not Applicable
+D013,Dr. Ritika Malhotra,2025-10-18,18
+D014,Dr. Priya Mishra,2025-10-18,Not Applicable
+D015,Dr. Vikram Desai,2025-10-18,6
+D016,Dr. Kavita Gupta,2025-10-18,Not Applicable
+D017,Dr. Amit Agarwal,2025-10-18,Not Applicable
+D018,Dr. Shweta Rao,2025-10-18,0
+D019,Dr. Shweta Rao,2025-10-18,Not Applicable
+D020,Dr. Karan Malhotra,2025-10-18,Not Applicable
+D001,Dr. Deepak Iyer,2025-10-19,Not Applicable
+D002,Dr. Kavita Chopra,2025-10-19,Not Applicable
+D003,Dr. Suresh Desai,2025-10-19,Not Applicable
+D004,Dr. Arjun Joshi,2025-10-19,Not Applicable
+D005,Dr. Karan Mehta,2025-10-19,Not Applicable
+D006,Dr. Meera Verma,2025-10-19,Not Applicable
+D007,Dr. Rahul Joshi,2025-10-19,Not Applicable
+D008,Dr. Manish Kapoor,2025-10-19,Not Applicable
+D009,Dr. Amit Pandey,2025-10-19,Not Applicable
+D010,Dr. Amit Bansal,2025-10-19,Not Applicable
+D011,Dr. Sneha Kapoor,2025-10-19,Not Applicable
+D012,Dr. Rahul Bansal,2025-10-19,Not Applicable
+D013,Dr. Ritika Malhotra,2025-10-19,Not Applicable
+D014,Dr. Priya Mishra,2025-10-19,Not Applicable
+D015,Dr. Vikram Desai,2025-10-19,Not Applicable
+D016,Dr. Kavita Gupta,2025-10-19,Not Applicable
+D017,Dr. Amit Agarwal,2025-10-19,Not Applicable
+D018,Dr. Shweta Rao,2025-10-19,Not Applicable
+D019,Dr. Shweta Rao,2025-10-19,Not Applicable
+D020,Dr. Karan Malhotra,2025-10-19,Not Applicable
+D001,Dr. Deepak Iyer,2025-10-20,9
+D002,Dr. Kavita Chopra,2025-10-20,Not Applicable
+D003,Dr. Suresh Desai,2025-10-20,5
+D004,Dr. Arjun Joshi,2025-10-20,0
+D005,Dr. Karan Mehta,2025-10-20,Not Applicable
+D006,Dr. Meera Verma,2025-10-20,Not Applicable
+D007,Dr. Rahul Joshi,2025-10-20,Not Applicable
+D008,Dr. Manish Kapoor,2025-10-20,Leave
+D009,Dr. Amit Pandey,2025-10-20,Not Applicable
+D010,Dr. Amit Bansal,2025-10-20,Not Applicable
+D011,Dr. Sneha Kapoor,2025-10-20,Not Applicable
+D012,Dr. Rahul Bansal,2025-10-20,32
+D013,Dr. Ritika Malhotra,2025-10-20,Not Applicable
+D014,Dr. Priya Mishra,2025-10-20,Not Applicable
+D015,Dr. Vikram Desai,2025-10-20,8
+D016,Dr. Kavita Gupta,2025-10-20,Leave
+D017,Dr. Amit Agarwal,2025-10-20,20
+D018,Dr. Shweta Rao,2025-10-20,Not Applicable
+D019,Dr. Shweta Rao,2025-10-20,32
+D020,Dr. Karan Malhotra,2025-10-20,15
+D001,Dr. Deepak Iyer,2025-10-21,Not Applicable
+D002,Dr. Kavita Chopra,2025-10-21,Not Applicable
+D003,Dr. Suresh Desai,2025-10-21,13
+D004,Dr. Arjun Joshi,2025-10-21,Not Applicable
+D005,Dr. Karan Mehta,2025-10-21,Not Applicable
+D006,Dr. Meera Verma,2025-10-21,17
+D007,Dr. Rahul Joshi,2025-10-21,0
+D008,Dr. Manish Kapoor,2025-10-21,Not Applicable
+D009,Dr. Amit Pandey,2025-10-21,Not Applicable
+D010,Dr. Amit Bansal,2025-10-21,13
+D011,Dr. Sneha Kapoor,2025-10-21,Not Applicable
+D012,Dr. Rahul Bansal,2025-10-21,30
+D013,Dr. Ritika Malhotra,2025-10-21,7
+D014,Dr. Priya Mishra,2025-10-21,33
+D015,Dr. Vikram Desai,2025-10-21,Not Applicable
+D016,Dr. Kavita Gupta,2025-10-21,Not Applicable
+D017,Dr. Amit Agarwal,2025-10-21,Not Applicable
+D018,Dr. Shweta Rao,2025-10-21,Not Applicable
+D019,Dr. Shweta Rao,2025-10-21,Not Applicable
+D020,Dr. Karan Malhotra,2025-10-21,Not Applicable
+D001,Dr. Deepak Iyer,2025-10-22,Not Applicable
+D002,Dr. Kavita Chopra,2025-10-22,12
+D003,Dr. Suresh Desai,2025-10-22,Leave
+D004,Dr. Arjun Joshi,2025-10-22,0
+D005,Dr. Karan Mehta,2025-10-22,12
+D006,Dr. Meera Verma,2025-10-22,17
+D007,Dr. Rahul Joshi,2025-10-22,Not Applicable
+D008,Dr. Manish Kapoor,2025-10-22,6
+D009,Dr. Amit Pandey,2025-10-22,18
+D010,Dr. Amit Bansal,2025-10-22,Not Applicable
+D011,Dr. Sneha Kapoor,2025-10-22,Not Applicable
+D012,Dr. Rahul Bansal,2025-10-22,31
+D013,Dr. Ritika Malhotra,2025-10-22,Not Applicable
+D014,Dr. Priya Mishra,2025-10-22,30
+D015,Dr. Vikram Desai,2025-10-22,Not Applicable
+D016,Dr. Kavita Gupta,2025-10-22,Not Applicable
+D017,Dr. Amit Agarwal,2025-10-22,Not Applicable
+D018,Dr. Shweta Rao,2025-10-22,1
+D019,Dr. Shweta Rao,2025-10-22,Not Applicable
+D020,Dr. Karan Malhotra,2025-10-22,14
+D001,Dr. Deepak Iyer,2025-10-23,16
+D002,Dr. Kavita Chopra,2025-10-23,Leave
+D003,Dr. Suresh Desai,2025-10-23,Not Applicable
+D004,Dr. Arjun Joshi,2025-10-23,Not Applicable
+D005,Dr. Karan Mehta,2025-10-23,13
+D006,Dr. Meera Verma,2025-10-23,13
+D007,Dr. Rahul Joshi,2025-10-23,0
+D008,Dr. Manish Kapoor,2025-10-23,0
+D009,Dr. Amit Pandey,2025-10-23,26
+D010,Dr. Amit Bansal,2025-10-23,Not Applicable
+D011,Dr. Sneha Kapoor,2025-10-23,10
+D012,Dr. Rahul Bansal,2025-10-23,Not Applicable
+D013,Dr. Ritika Malhotra,2025-10-23,Not Applicable
+D014,Dr. Priya Mishra,2025-10-23,Not Applicable
+D015,Dr. Vikram Desai,2025-10-23,9
+D016,Dr. Kavita Gupta,2025-10-23,18
+D017,Dr. Amit Agarwal,2025-10-23,21
+D018,Dr. Shweta Rao,2025-10-23,0
+D019,Dr. Shweta Rao,2025-10-23,35
+D020,Dr. Karan Malhotra,2025-10-23,Not Applicable
+D001,Dr. Deepak Iyer,2025-10-24,Not Applicable
+D002,Dr. Kavita Chopra,2025-10-24,Not Applicable
+D003,Dr. Suresh Desai,2025-10-24,Not Applicable
+D004,Dr. Arjun Joshi,2025-10-24,Not Applicable
+D005,Dr. Karan Mehta,2025-10-24,Not Applicable
+D006,Dr. Meera Verma,2025-10-24,Not Applicable
+D007,Dr. Rahul Joshi,2025-10-24,Not Applicable
+D008,Dr. Manish Kapoor,2025-10-24,Not Applicable
+D009,Dr. Amit Pandey,2025-10-24,Leave
+D010,Dr. Amit Bansal,2025-10-24,16
+D011,Dr. Sneha Kapoor,2025-10-24,6
+D012,Dr. Rahul Bansal,2025-10-24,Not Applicable
+D013,Dr. Ritika Malhotra,2025-10-24,Leave
+D014,Dr. Priya Mishra,2025-10-24,23
+D015,Dr. Vikram Desai,2025-10-24,Not Applicable
+D016,Dr. Kavita Gupta,2025-10-24,14
+D017,Dr. Amit Agarwal,2025-10-24,27
+D018,Dr. Shweta Rao,2025-10-24,Not Applicable
+D019,Dr. Shweta Rao,2025-10-24,31
+D020,Dr. Karan Malhotra,2025-10-24,22
+D001,Dr. Deepak Iyer,2025-10-25,7
+D002,Dr. Kavita Chopra,2025-10-25,21
+D003,Dr. Suresh Desai,2025-10-25,Not Applicable
+D004,Dr. Arjun Joshi,2025-10-25,10
+D005,Dr. Karan Mehta,2025-10-25,10
+D006,Dr. Meera Verma,2025-10-25,Not Applicable
+D007,Dr. Rahul Joshi,2025-10-25,0
+D008,Dr. Manish Kapoor,2025-10-25,Not Applicable
+D009,Dr. Amit Pandey,2025-10-25,Not Applicable
+D010,Dr. Amit Bansal,2025-10-25,1
+D011,Dr. Sneha Kapoor,2025-10-25,18
+D012,Dr. Rahul Bansal,2025-10-25,Not Applicable
+D013,Dr. Ritika Malhotra,2025-10-25,12
+D014,Dr. Priya Mishra,2025-10-25,Not Applicable
+D015,Dr. Vikram Desai,2025-10-25,16
+D016,Dr. Kavita Gupta,2025-10-25,Not Applicable
+D017,Dr. Amit Agarwal,2025-10-25,Not Applicable
+D018,Dr. Shweta Rao,2025-10-25,0
+D019,Dr. Shweta Rao,2025-10-25,Not Applicable
+D020,Dr. Karan Malhotra,2025-10-25,Not Applicable
+D001,Dr. Deepak Iyer,2025-10-26,Not Applicable
+D002,Dr. Kavita Chopra,2025-10-26,Not Applicable
+D003,Dr. Suresh Desai,2025-10-26,Not Applicable
+D004,Dr. Arjun Joshi,2025-10-26,Not Applicable
+D005,Dr. Karan Mehta,2025-10-26,Not Applicable
+D006,Dr. Meera Verma,2025-10-26,Not Applicable
+D007,Dr. Rahul Joshi,2025-10-26,Not Applicable
+D008,Dr. Manish Kapoor,2025-10-26,Not Applicable
+D009,Dr. Amit Pandey,2025-10-26,Not Applicable
+D010,Dr. Amit Bansal,2025-10-26,Not Applicable
+D011,Dr. Sneha Kapoor,2025-10-26,Not Applicable
+D012,Dr. Rahul Bansal,2025-10-26,Not Applicable
+D013,Dr. Ritika Malhotra,2025-10-26,Not Applicable
+D014,Dr. Priya Mishra,2025-10-26,Not Applicable
+D015,Dr. Vikram Desai,2025-10-26,Not Applicable
+D016,Dr. Kavita Gupta,2025-10-26,Not Applicable
+D017,Dr. Amit Agarwal,2025-10-26,Not Applicable
+D018,Dr. Shweta Rao,2025-10-26,Not Applicable
+D019,Dr. Shweta Rao,2025-10-26,Not Applicable
+D020,Dr. Karan Malhotra,2025-10-26,Not Applicable
+D001,Dr. Deepak Iyer,2025-10-27,7
+D002,Dr. Kavita Chopra,2025-10-27,Not Applicable
+D003,Dr. Suresh Desai,2025-10-27,3
+D004,Dr. Arjun Joshi,2025-10-27,Leave
+D005,Dr. Karan Mehta,2025-10-27,Not Applicable
+D006,Dr. Meera Verma,2025-10-27,Not Applicable
+D007,Dr. Rahul Joshi,2025-10-27,Not Applicable
+D008,Dr. Manish Kapoor,2025-10-27,3
+D009,Dr. Amit Pandey,2025-10-27,Not Applicable
+D010,Dr. Amit Bansal,2025-10-27,Not Applicable
+D011,Dr. Sneha Kapoor,2025-10-27,Not Applicable
+D012,Dr. Rahul Bansal,2025-10-27,27
+D013,Dr. Ritika Malhotra,2025-10-27,Not Applicable
+D014,Dr. Priya Mishra,2025-10-27,Not Applicable
+D015,Dr. Vikram Desai,2025-10-27,11
+D016,Dr. Kavita Gupta,2025-10-27,22
+D017,Dr. Amit Agarwal,2025-10-27,18
+D018,Dr. Shweta Rao,2025-10-27,Not Applicable
+D019,Dr. Shweta Rao,2025-10-27,27
+D020,Dr. Karan Malhotra,2025-10-27,20
+D001,Dr. Deepak Iyer,2025-10-28,Not Applicable
+D002,Dr. Kavita Chopra,2025-10-28,Not Applicable
+D003,Dr. Suresh Desai,2025-10-28,9
+D004,Dr. Arjun Joshi,2025-10-28,Not Applicable
+D005,Dr. Karan Mehta,2025-10-28,Not Applicable
+D006,Dr. Meera Verma,2025-10-28,18
+D007,Dr. Rahul Joshi,2025-10-28,3
+D008,Dr. Manish Kapoor,2025-10-28,Not Applicable
+D009,Dr. Amit Pandey,2025-10-28,Not Applicable
+D010,Dr. Amit Bansal,2025-10-28,5
+D011,Dr. Sneha Kapoor,2025-10-28,Not Applicable
+D012,Dr. Rahul Bansal,2025-10-28,24
+D013,Dr. Ritika Malhotra,2025-10-28,Leave
+D014,Dr. Priya Mishra,2025-10-28,10
+D015,Dr. Vikram Desai,2025-10-28,Not Applicable
+D016,Dr. Kavita Gupta,2025-10-28,Not Applicable
+D017,Dr. Amit Agarwal,2025-10-28,Not Applicable
+D018,Dr. Shweta Rao,2025-10-28,Not Applicable
+D019,Dr. Shweta Rao,2025-10-28,Not Applicable
+D020,Dr. Karan Malhotra,2025-10-28,Not Applicable
+D001,Dr. Deepak Iyer,2025-10-29,Not Applicable
+D002,Dr. Kavita Chopra,2025-10-29,7
+D003,Dr. Suresh Desai,2025-10-29,0
+D004,Dr. Arjun Joshi,2025-10-29,7
+D005,Dr. Karan Mehta,2025-10-29,3
+D006,Dr. Meera Verma,2025-10-29,12
+D007,Dr. Rahul Joshi,2025-10-29,Not Applicable
+D008,Dr. Manish Kapoor,2025-10-29,3
+D009,Dr. Amit Pandey,2025-10-29,16
+D010,Dr. Amit Bansal,2025-10-29,Not Applicable
+D011,Dr. Sneha Kapoor,2025-10-29,Not Applicable
+D012,Dr. Rahul Bansal,2025-10-29,25
+D013,Dr. Ritika Malhotra,2025-10-29,Not Applicable
+D014,Dr. Priya Mishra,2025-10-29,Leave
+D015,Dr. Vikram Desai,2025-10-29,Not Applicable
+D016,Dr. Kavita Gupta,2025-10-29,Not Applicable
+D017,Dr. Amit Agarwal,2025-10-29,Not Applicable
+D018,Dr. Shweta Rao,2025-10-29,0
+D019,Dr. Shweta Rao,2025-10-29,Not Applicable
+D020,Dr. Karan Malhotra,2025-10-29,20
+D001,Dr. Deepak Iyer,2025-10-30,8
+D002,Dr. Kavita Chopra,2025-10-30,11
+D003,Dr. Suresh Desai,2025-10-30,Not Applicable
+D004,Dr. Arjun Joshi,2025-10-30,Not Applicable
+D005,Dr. Karan Mehta,2025-10-30,5
+D006,Dr. Meera Verma,2025-10-30,14
+D007,Dr. Rahul Joshi,2025-10-30,6
+D008,Dr. Manish Kapoor,2025-10-30,Leave
+D009,Dr. Amit Pandey,2025-10-30,17
+D010,Dr. Amit Bansal,2025-10-30,Not Applicable
+D011,Dr. Sneha Kapoor,2025-10-30,9
+D012,Dr. Rahul Bansal,2025-10-30,Not Applicable
+D013,Dr. Ritika Malhotra,2025-10-30,Not Applicable
+D014,Dr. Priya Mishra,2025-10-30,Not Applicable
+D015,Dr. Vikram Desai,2025-10-30,8
+D016,Dr. Kavita Gupta,2025-10-30,17
+D017,Dr. Amit Agarwal,2025-10-30,20
+D018,Dr. Shweta Rao,2025-10-30,Leave
+D019,Dr. Shweta Rao,2025-10-30,Leave
+D020,Dr. Karan Malhotra,2025-10-30,Not Applicable
+D001,Dr. Deepak Iyer,2025-10-31,Not Applicable
+D002,Dr. Kavita Chopra,2025-10-31,Not Applicable
+D003,Dr. Suresh Desai,2025-10-31,Not Applicable
+D004,Dr. Arjun Joshi,2025-10-31,Not Applicable
+D005,Dr. Karan Mehta,2025-10-31,Not Applicable
+D006,Dr. Meera Verma,2025-10-31,Not Applicable
+D007,Dr. Rahul Joshi,2025-10-31,Not Applicable
+D008,Dr. Manish Kapoor,2025-10-31,Not Applicable
+D009,Dr. Amit Pandey,2025-10-31,16
+D010,Dr. Amit Bansal,2025-10-31,0
+D011,Dr. Sneha Kapoor,2025-10-31,5
+D012,Dr. Rahul Bansal,2025-10-31,Not Applicable
+D013,Dr. Ritika Malhotra,2025-10-31,2
+D014,Dr. Priya Mishra,2025-10-31,27
+D015,Dr. Vikram Desai,2025-10-31,Not Applicable
+D016,Dr. Kavita Gupta,2025-10-31,14
+D017,Dr. Amit Agarwal,2025-10-31,11
+D018,Dr. Shweta Rao,2025-10-31,Not Applicable
+D019,Dr. Shweta Rao,2025-10-31,32
+D020,Dr. Karan Malhotra,2025-10-31,17
+D001,Dr. Deepak Iyer,2025-11-01,4
+D002,Dr. Kavita Chopra,2025-11-01,6
+D003,Dr. Suresh Desai,2025-11-01,Not Applicable
+D004,Dr. Arjun Joshi,2025-11-01,0
+D005,Dr. Karan Mehta,2025-11-01,2
+D006,Dr. Meera Verma,2025-11-01,Not Applicable
+D007,Dr. Rahul Joshi,2025-11-01,0
+D008,Dr. Manish Kapoor,2025-11-01,Not Applicable
+D009,Dr. Amit Pandey,2025-11-01,Not Applicable
+D010,Dr. Amit Bansal,2025-11-01,3
+D011,Dr. Sneha Kapoor,2025-11-01,13
+D012,Dr. Rahul Bansal,2025-11-01,Not Applicable
+D013,Dr. Ritika Malhotra,2025-11-01,6
+D014,Dr. Priya Mishra,2025-11-01,Not Applicable
+D015,Dr. Vikram Desai,2025-11-01,1
+D016,Dr. Kavita Gupta,2025-11-01,Not Applicable
+D017,Dr. Amit Agarwal,2025-11-01,Not Applicable
+D018,Dr. Shweta Rao,2025-11-01,0
+D019,Dr. Shweta Rao,2025-11-01,Not Applicable
+D020,Dr. Karan Malhotra,2025-11-01,Not Applicable
+D001,Dr. Deepak Iyer,2025-11-02,Not Applicable
+D002,Dr. Kavita Chopra,2025-11-02,Not Applicable
+D003,Dr. Suresh Desai,2025-11-02,Not Applicable
+D004,Dr. Arjun Joshi,2025-11-02,Not Applicable
+D005,Dr. Karan Mehta,2025-11-02,Not Applicable
+D006,Dr. Meera Verma,2025-11-02,Not Applicable
+D007,Dr. Rahul Joshi,2025-11-02,Not Applicable
+D008,Dr. Manish Kapoor,2025-11-02,Not Applicable
+D009,Dr. Amit Pandey,2025-11-02,Not Applicable
+D010,Dr. Amit Bansal,2025-11-02,Not Applicable
+D011,Dr. Sneha Kapoor,2025-11-02,Not Applicable
+D012,Dr. Rahul Bansal,2025-11-02,Not Applicable
+D013,Dr. Ritika Malhotra,2025-11-02,Not Applicable
+D014,Dr. Priya Mishra,2025-11-02,Not Applicable
+D015,Dr. Vikram Desai,2025-11-02,Not Applicable
+D016,Dr. Kavita Gupta,2025-11-02,Not Applicable
+D017,Dr. Amit Agarwal,2025-11-02,Not Applicable
+D018,Dr. Shweta Rao,2025-11-02,Not Applicable
+D019,Dr. Shweta Rao,2025-11-02,Not Applicable
+D020,Dr. Karan Malhotra,2025-11-02,Not Applicable
+D001,Dr. Deepak Iyer,2025-11-03,0
+D002,Dr. Kavita Chopra,2025-11-03,Not Applicable
+D003,Dr. Suresh Desai,2025-11-03,0
+D004,Dr. Arjun Joshi,2025-11-03,0
+D005,Dr. Karan Mehta,2025-11-03,Not Applicable
+D006,Dr. Meera Verma,2025-11-03,Not Applicable
+D007,Dr. Rahul Joshi,2025-11-03,Not Applicable
+D008,Dr. Manish Kapoor,2025-11-03,0
+D009,Dr. Amit Pandey,2025-11-03,Not Applicable
+D010,Dr. Amit Bansal,2025-11-03,Not Applicable
+D011,Dr. Sneha Kapoor,2025-11-03,Not Applicable
+D012,Dr. Rahul Bansal,2025-11-03,31
+D013,Dr. Ritika Malhotra,2025-11-03,Not Applicable
+D014,Dr. Priya Mishra,2025-11-03,Not Applicable
+D015,Dr. Vikram Desai,2025-11-03,1
+D016,Dr. Kavita Gupta,2025-11-03,28
+D017,Dr. Amit Agarwal,2025-11-03,18
+D018,Dr. Shweta Rao,2025-11-03,Not Applicable
+D019,Dr. Shweta Rao,2025-11-03,23
+D020,Dr. Karan Malhotra,2025-11-03,Leave
+D001,Dr. Deepak Iyer,2025-11-04,Not Applicable
+D002,Dr. Kavita Chopra,2025-11-04,Not Applicable
+D003,Dr. Suresh Desai,2025-11-04,4
+D004,Dr. Arjun Joshi,2025-11-04,Not Applicable
+D005,Dr. Karan Mehta,2025-11-04,Not Applicable
+D006,Dr. Meera Verma,2025-11-04,9
+D007,Dr. Rahul Joshi,2025-11-04,7
+D008,Dr. Manish Kapoor,2025-11-04,Not Applicable
+D009,Dr. Amit Pandey,2025-11-04,Not Applicable
+D010,Dr. Amit Bansal,2025-11-04,2
+D011,Dr. Sneha Kapoor,2025-11-04,Not Applicable
+D012,Dr. Rahul Bansal,2025-11-04,35
+D013,Dr. Ritika Malhotra,2025-11-04,3
+D014,Dr. Priya Mishra,2025-11-04,10
+D015,Dr. Vikram Desai,2025-11-04,Not Applicable
+D016,Dr. Kavita Gupta,2025-11-04,Not Applicable
+D017,Dr. Amit Agarwal,2025-11-04,Not Applicable
+D018,Dr. Shweta Rao,2025-11-04,Not Applicable
+D019,Dr. Shweta Rao,2025-11-04,Not Applicable
+D020,Dr. Karan Malhotra,2025-11-04,Not Applicable
+D001,Dr. Deepak Iyer,2025-11-05,Not Applicable
+D002,Dr. Kavita Chopra,2025-11-05,1
+D003,Dr. Suresh Desai,2025-11-05,3
+D004,Dr. Arjun Joshi,2025-11-05,0
+D005,Dr. Karan Mehta,2025-11-05,Leave
+D006,Dr. Meera Verma,2025-11-05,4
+D007,Dr. Rahul Joshi,2025-11-05,Not Applicable
+D008,Dr. Manish Kapoor,2025-11-05,0
+D009,Dr. Amit Pandey,2025-11-05,14
+D010,Dr. Amit Bansal,2025-11-05,Not Applicable
+D011,Dr. Sneha Kapoor,2025-11-05,Not Applicable
+D012,Dr. Rahul Bansal,2025-11-05,24
+D013,Dr. Ritika Malhotra,2025-11-05,Not Applicable
+D014,Dr. Priya Mishra,2025-11-05,19
+D015,Dr. Vikram Desai,2025-11-05,Not Applicable
+D016,Dr. Kavita Gupta,2025-11-05,Not Applicable
+D017,Dr. Amit Agarwal,2025-11-05,Not Applicable
+D018,Dr. Shweta Rao,2025-11-05,5
+D019,Dr. Shweta Rao,2025-11-05,Not Applicable
+D020,Dr. Karan Malhotra,2025-11-05,1
+D001,Dr. Deepak Iyer,2025-11-06,2
+D002,Dr. Kavita Chopra,2025-11-06,7
+D003,Dr. Suresh Desai,2025-11-06,Not Applicable
+D004,Dr. Arjun Joshi,2025-11-06,Not Applicable
+D005,Dr. Karan Mehta,2025-11-06,2
+D006,Dr. Meera Verma,2025-11-06,8
+D007,Dr. Rahul Joshi,2025-11-06,0
+D008,Dr. Manish Kapoor,2025-11-06,0
+D009,Dr. Amit Pandey,2025-11-06,14
+D010,Dr. Amit Bansal,2025-11-06,Not Applicable
+D011,Dr. Sneha Kapoor,2025-11-06,7
+D012,Dr. Rahul Bansal,2025-11-06,Not Applicable
+D013,Dr. Ritika Malhotra,2025-11-06,Not Applicable
+D014,Dr. Priya Mishra,2025-11-06,Not Applicable
+D015,Dr. Vikram Desai,2025-11-06,4
+D016,Dr. Kavita Gupta,2025-11-06,15
+D017,Dr. Amit Agarwal,2025-11-06,16
+D018,Dr. Shweta Rao,2025-11-06,6
+D019,Dr. Shweta Rao,2025-11-06,21
+D020,Dr. Karan Malhotra,2025-11-06,Not Applicable
+D001,Dr. Deepak Iyer,2025-11-07,Not Applicable
+D002,Dr. Kavita Chopra,2025-11-07,Not Applicable
+D003,Dr. Suresh Desai,2025-11-07,Not Applicable
+D004,Dr. Arjun Joshi,2025-11-07,Not Applicable
+D005,Dr. Karan Mehta,2025-11-07,Not Applicable
+D006,Dr. Meera Verma,2025-11-07,Not Applicable
+D007,Dr. Rahul Joshi,2025-11-07,Not Applicable
+D008,Dr. Manish Kapoor,2025-11-07,Not Applicable
+D009,Dr. Amit Pandey,2025-11-07,15
+D010,Dr. Amit Bansal,2025-11-07,Leave
+D011,Dr. Sneha Kapoor,2025-11-07,17
+D012,Dr. Rahul Bansal,2025-11-07,Not Applicable
+D013,Dr. Ritika Malhotra,2025-11-07,3
+D014,Dr. Priya Mishra,2025-11-07,9
+D015,Dr. Vikram Desai,2025-11-07,Not Applicable
+D016,Dr. Kavita Gupta,2025-11-07,12
+D017,Dr. Amit Agarwal,2025-11-07,17
+D018,Dr. Shweta Rao,2025-11-07,Not Applicable
+D019,Dr. Shweta Rao,2025-11-07,23
+D020,Dr. Karan Malhotra,2025-11-07,3
+D001,Dr. Deepak Iyer,2025-11-08,Leave
+D002,Dr. Kavita Chopra,2025-11-08,4
+D003,Dr. Suresh Desai,2025-11-08,Not Applicable
+D004,Dr. Arjun Joshi,2025-11-08,0
+D005,Dr. Karan Mehta,2025-11-08,0
+D006,Dr. Meera Verma,2025-11-08,Not Applicable
+D007,Dr. Rahul Joshi,2025-11-08,0
+D008,Dr. Manish Kapoor,2025-11-08,Not Applicable
+D009,Dr. Amit Pandey,2025-11-08,Not Applicable
+D010,Dr. Amit Bansal,2025-11-08,0
+D011,Dr. Sneha Kapoor,2025-11-08,4
+D012,Dr. Rahul Bansal,2025-11-08,Not Applicable
+D013,Dr. Ritika Malhotra,2025-11-08,6
+D014,Dr. Priya Mishra,2025-11-08,Not Applicable
+D015,Dr. Vikram Desai,2025-11-08,0
+D016,Dr. Kavita Gupta,2025-11-08,Not Applicable
+D017,Dr. Amit Agarwal,2025-11-08,Not Applicable
+D018,Dr. Shweta Rao,2025-11-08,3
+D019,Dr. Shweta Rao,2025-11-08,Not Applicable
+D020,Dr. Karan Malhotra,2025-11-08,Not Applicable
+D001,Dr. Deepak Iyer,2025-11-09,Not Applicable
+D002,Dr. Kavita Chopra,2025-11-09,Not Applicable
+D003,Dr. Suresh Desai,2025-11-09,Not Applicable
+D004,Dr. Arjun Joshi,2025-11-09,Not Applicable
+D005,Dr. Karan Mehta,2025-11-09,Not Applicable
+D006,Dr. Meera Verma,2025-11-09,Not Applicable
+D007,Dr. Rahul Joshi,2025-11-09,Not Applicable
+D008,Dr. Manish Kapoor,2025-11-09,Not Applicable
+D009,Dr. Amit Pandey,2025-11-09,Not Applicable
+D010,Dr. Amit Bansal,2025-11-09,Not Applicable
+D011,Dr. Sneha Kapoor,2025-11-09,Not Applicable
+D012,Dr. Rahul Bansal,2025-11-09,Not Applicable
+D013,Dr. Ritika Malhotra,2025-11-09,Not Applicable
+D014,Dr. Priya Mishra,2025-11-09,Not Applicable
+D015,Dr. Vikram Desai,2025-11-09,Not Applicable
+D016,Dr. Kavita Gupta,2025-11-09,Not Applicable
+D017,Dr. Amit Agarwal,2025-11-09,Not Applicable
+D018,Dr. Shweta Rao,2025-11-09,Not Applicable
+D019,Dr. Shweta Rao,2025-11-09,Not Applicable
+D020,Dr. Karan Malhotra,2025-11-09,Not Applicable
+D001,Dr. Deepak Iyer,2025-11-10,2
+D002,Dr. Kavita Chopra,2025-11-10,Not Applicable
+D003,Dr. Suresh Desai,2025-11-10,0
+D004,Dr. Arjun Joshi,2025-11-10,Leave
+D005,Dr. Karan Mehta,2025-11-10,Not Applicable
+D006,Dr. Meera Verma,2025-11-10,Not Applicable
+D007,Dr. Rahul Joshi,2025-11-10,Not Applicable
+D008,Dr. Manish Kapoor,2025-11-10,1
+D009,Dr. Amit Pandey,2025-11-10,Not Applicable
+D010,Dr. Amit Bansal,2025-11-10,Not Applicable
+D011,Dr. Sneha Kapoor,2025-11-10,Not Applicable
+D012,Dr. Rahul Bansal,2025-11-10,17
+D013,Dr. Ritika Malhotra,2025-11-10,Not Applicable
+D014,Dr. Priya Mishra,2025-11-10,Not Applicable
+D015,Dr. Vikram Desai,2025-11-10,0
+D016,Dr. Kavita Gupta,2025-11-10,24
+D017,Dr. Amit Agarwal,2025-11-10,11
+D018,Dr. Shweta Rao,2025-11-10,Not Applicable
+D019,Dr. Shweta Rao,2025-11-10,27
+D020,Dr. Karan Malhotra,2025-11-10,6
+D001,Dr. Deepak Iyer,2025-11-11,Not Applicable
+D002,Dr. Kavita Chopra,2025-11-11,Not Applicable
+D003,Dr. Suresh Desai,2025-11-11,0
+D004,Dr. Arjun Joshi,2025-11-11,Not Applicable
+D005,Dr. Karan Mehta,2025-11-11,Not Applicable
+D006,Dr. Meera Verma,2025-11-11,14
+D007,Dr. Rahul Joshi,2025-11-11,0
+D008,Dr. Manish Kapoor,2025-11-11,Not Applicable
+D009,Dr. Amit Pandey,2025-11-11,Not Applicable
+D010,Dr. Amit Bansal,2025-11-11,1
+D011,Dr. Sneha Kapoor,2025-11-11,Not Applicable
+D012,Dr. Rahul Bansal,2025-11-11,19
+D013,Dr. Ritika Malhotra,2025-11-11,0
+D014,Dr. Priya Mishra,2025-11-11,15
+D015,Dr. Vikram Desai,2025-11-11,Not Applicable
+D016,Dr. Kavita Gupta,2025-11-11,Not Applicable
+D017,Dr. Amit Agarwal,2025-11-11,Not Applicable
+D018,Dr. Shweta Rao,2025-11-11,Not Applicable
+D019,Dr. Shweta Rao,2025-11-11,Not Applicable
+D020,Dr. Karan Malhotra,2025-11-11,Not Applicable
+D001,Dr. Deepak Iyer,2025-11-12,Not Applicable
+D002,Dr. Kavita Chopra,2025-11-12,7
+D003,Dr. Suresh Desai,2025-11-12,0
+D004,Dr. Arjun Joshi,2025-11-12,0
+D005,Dr. Karan Mehta,2025-11-12,1
+D006,Dr. Meera Verma,2025-11-12,14
+D007,Dr. Rahul Joshi,2025-11-12,Not Applicable
+D008,Dr. Manish Kapoor,2025-11-12,1
+D009,Dr. Amit Pandey,2025-11-12,13
+D010,Dr. Amit Bansal,2025-11-12,Not Applicable
+D011,Dr. Sneha Kapoor,2025-11-12,Not Applicable
+D012,Dr. Rahul Bansal,2025-11-12,26
+D013,Dr. Ritika Malhotra,2025-11-12,Not Applicable
+D014,Dr. Priya Mishra,2025-11-12,12
+D015,Dr. Vikram Desai,2025-11-12,Not Applicable
+D016,Dr. Kavita Gupta,2025-11-12,Not Applicable
+D017,Dr. Amit Agarwal,2025-11-12,Not Applicable
+D018,Dr. Shweta Rao,2025-11-12,2
+D019,Dr. Shweta Rao,2025-11-12,Not Applicable
+D020,Dr. Karan Malhotra,2025-11-12,10
+D001,Dr. Deepak Iyer,2025-11-13,0
+D002,Dr. Kavita Chopra,2025-11-13,2
+D003,Dr. Suresh Desai,2025-11-13,Not Applicable
+D004,Dr. Arjun Joshi,2025-11-13,Not Applicable
+D005,Dr. Karan Mehta,2025-11-13,1
+D006,Dr. Meera Verma,2025-11-13,2
+D007,Dr. Rahul Joshi,2025-11-13,8
+D008,Dr. Manish Kapoor,2025-11-13,0
+D009,Dr. Amit Pandey,2025-11-13,15
+D010,Dr. Amit Bansal,2025-11-13,Not Applicable
+D011,Dr. Sneha Kapoor,2025-11-13,2
+D012,Dr. Rahul Bansal,2025-11-13,Not Applicable
+D013,Dr. Ritika Malhotra,2025-11-13,Not Applicable
+D014,Dr. Priya Mishra,2025-11-13,Not Applicable
+D015,Dr. Vikram Desai,2025-11-13,Leave
+D016,Dr. Kavita Gupta,2025-11-13,5
+D017,Dr. Amit Agarwal,2025-11-13,4
+D018,Dr. Shweta Rao,2025-11-13,2
+D019,Dr. Shweta Rao,2025-11-13,25
+D020,Dr. Karan Malhotra,2025-11-13,Not Applicable
+D001,Dr. Deepak Iyer,2025-11-14,Not Applicable
+D002,Dr. Kavita Chopra,2025-11-14,Not Applicable
+D003,Dr. Suresh Desai,2025-11-14,Not Applicable
+D004,Dr. Arjun Joshi,2025-11-14,Not Applicable
+D005,Dr. Karan Mehta,2025-11-14,Not Applicable
+D006,Dr. Meera Verma,2025-11-14,Not Applicable
+D007,Dr. Rahul Joshi,2025-11-14,Not Applicable
+D008,Dr. Manish Kapoor,2025-11-14,Not Applicable
+D009,Dr. Amit Pandey,2025-11-14,8
+D010,Dr. Amit Bansal,2025-11-14,0
+D011,Dr. Sneha Kapoor,2025-11-14,0
+D012,Dr. Rahul Bansal,2025-11-14,Not Applicable
+D013,Dr. Ritika Malhotra,2025-11-14,0
+D014,Dr. Priya Mishra,2025-11-14,Leave
+D015,Dr. Vikram Desai,2025-11-14,Not Applicable
+D016,Dr. Kavita Gupta,2025-11-14,3
+D017,Dr. Amit Agarwal,2025-11-14,13
+D018,Dr. Shweta Rao,2025-11-14,Not Applicable
+D019,Dr. Shweta Rao,2025-11-14,15
+D020,Dr. Karan Malhotra,2025-11-14,1
+D001,Dr. Deepak Iyer,2025-11-15,0
+D002,Dr. Kavita Chopra,2025-11-15,2
+D003,Dr. Suresh Desai,2025-11-15,Not Applicable
+D004,Dr. Arjun Joshi,2025-11-15,1
+D005,Dr. Karan Mehta,2025-11-15,0
+D006,Dr. Meera Verma,2025-11-15,Not Applicable
+D007,Dr. Rahul Joshi,2025-11-15,0
+D008,Dr. Manish Kapoor,2025-11-15,Not Applicable
+D009,Dr. Amit Pandey,2025-11-15,Not Applicable
+D010,Dr. Amit Bansal,2025-11-15,0
+D011,Dr. Sneha Kapoor,2025-11-15,6
+D012,Dr. Rahul Bansal,2025-11-15,Not Applicable
+D013,Dr. Ritika Malhotra,2025-11-15,2
+D014,Dr. Priya Mishra,2025-11-15,Not Applicable
+D015,Dr. Vikram Desai,2025-11-15,0
+D016,Dr. Kavita Gupta,2025-11-15,Not Applicable
+D017,Dr. Amit Agarwal,2025-11-15,Not Applicable
+D018,Dr. Shweta Rao,2025-11-15,Leave
+D019,Dr. Shweta Rao,2025-11-15,Not Applicable
+D020,Dr. Karan Malhotra,2025-11-15,Not Applicable
+D001,Dr. Deepak Iyer,2025-11-16,Not Applicable
+D002,Dr. Kavita Chopra,2025-11-16,Not Applicable
+D003,Dr. Suresh Desai,2025-11-16,Not Applicable
+D004,Dr. Arjun Joshi,2025-11-16,Not Applicable
+D005,Dr. Karan Mehta,2025-11-16,Not Applicable
+D006,Dr. Meera Verma,2025-11-16,Not Applicable
+D007,Dr. Rahul Joshi,2025-11-16,Not Applicable
+D008,Dr. Manish Kapoor,2025-11-16,Not Applicable
+D009,Dr. Amit Pandey,2025-11-16,Not Applicable
+D010,Dr. Amit Bansal,2025-11-16,Not Applicable
+D011,Dr. Sneha Kapoor,2025-11-16,Not Applicable
+D012,Dr. Rahul Bansal,2025-11-16,Not Applicable
+D013,Dr. Ritika Malhotra,2025-11-16,Not Applicable
+D014,Dr. Priya Mishra,2025-11-16,Not Applicable
+D015,Dr. Vikram Desai,2025-11-16,Not Applicable
+D016,Dr. Kavita Gupta,2025-11-16,Not Applicable
+D017,Dr. Amit Agarwal,2025-11-16,Not Applicable
+D018,Dr. Shweta Rao,2025-11-16,Not Applicable
+D019,Dr. Shweta Rao,2025-11-16,Not Applicable
+D020,Dr. Karan Malhotra,2025-11-16,Not Applicable
+D001,Dr. Deepak Iyer,2025-11-17,Leave
+D002,Dr. Kavita Chopra,2025-11-17,Not Applicable
+D003,Dr. Suresh Desai,2025-11-17,0
+D004,Dr. Arjun Joshi,2025-11-17,0
+D005,Dr. Karan Mehta,2025-11-17,Not Applicable
+D006,Dr. Meera Verma,2025-11-17,Not Applicable
+D007,Dr. Rahul Joshi,2025-11-17,Not Applicable
+D008,Dr. Manish Kapoor,2025-11-17,Leave
+D009,Dr. Amit Pandey,2025-11-17,Not Applicable
+D010,Dr. Amit Bansal,2025-11-17,Not Applicable
+D011,Dr. Sneha Kapoor,2025-11-17,Not Applicable
+D012,Dr. Rahul Bansal,2025-11-17,11
+D013,Dr. Ritika Malhotra,2025-11-17,Not Applicable
+D014,Dr. Priya Mishra,2025-11-17,Not Applicable
+D015,Dr. Vikram Desai,2025-11-17,7
+D016,Dr. Kavita Gupta,2025-11-17,8
+D017,Dr. Amit Agarwal,2025-11-17,11
+D018,Dr. Shweta Rao,2025-11-17,Not Applicable
+D019,Dr. Shweta Rao,2025-11-17,23
+D020,Dr. Karan Malhotra,2025-11-17,0
+D001,Dr. Deepak Iyer,2025-11-18,Not Applicable
+D002,Dr. Kavita Chopra,2025-11-18,Not Applicable
+D003,Dr. Suresh Desai,2025-11-18,2
+D004,Dr. Arjun Joshi,2025-11-18,Not Applicable
+D005,Dr. Karan Mehta,2025-11-18,Not Applicable
+D006,Dr. Meera Verma,2025-11-18,1
+D007,Dr. Rahul Joshi,2025-11-18,0
+D008,Dr. Manish Kapoor,2025-11-18,Not Applicable
+D009,Dr. Amit Pandey,2025-11-18,Not Applicable
+D010,Dr. Amit Bansal,2025-11-18,6
+D011,Dr. Sneha Kapoor,2025-11-18,Not Applicable
+D012,Dr. Rahul Bansal,2025-11-18,12
+D013,Dr. Ritika Malhotra,2025-11-18,2
+D014,Dr. Priya Mishra,2025-11-18,12
+D015,Dr. Vikram Desai,2025-11-18,Not Applicable
+D016,Dr. Kavita Gupta,2025-11-18,Not Applicable
+D017,Dr. Amit Agarwal,2025-11-18,Not Applicable
+D018,Dr. Shweta Rao,2025-11-18,Not Applicable
+D019,Dr. Shweta Rao,2025-11-18,Not Applicable
+D020,Dr. Karan Malhotra,2025-11-18,Not Applicable
+D001,Dr. Deepak Iyer,2025-11-19,Not Applicable
+D002,Dr. Kavita Chopra,2025-11-19,3
+D003,Dr. Suresh Desai,2025-11-19,0
+D004,Dr. Arjun Joshi,2025-11-19,1
+D005,Dr. Karan Mehta,2025-11-19,Leave
+D006,Dr. Meera Verma,2025-11-19,2
+D007,Dr. Rahul Joshi,2025-11-19,Not Applicable
+D008,Dr. Manish Kapoor,2025-11-19,5
+D009,Dr. Amit Pandey,2025-11-19,15
+D010,Dr. Amit Bansal,2025-11-19,Not Applicable
+D011,Dr. Sneha Kapoor,2025-11-19,Not Applicable
+D012,Dr. Rahul Bansal,2025-11-19,24
+D013,Dr. Ritika Malhotra,2025-11-19,Not Applicable
+D014,Dr. Priya Mishra,2025-11-19,Leave
+D015,Dr. Vikram Desai,2025-11-19,Not Applicable
+D016,Dr. Kavita Gupta,2025-11-19,Not Applicable
+D017,Dr. Amit Agarwal,2025-11-19,Not Applicable
+D018,Dr. Shweta Rao,2025-11-19,0
+D019,Dr. Shweta Rao,2025-11-19,Not Applicable
+D020,Dr. Karan Malhotra,2025-11-19,5
+D001,Dr. Deepak Iyer,2025-11-20,5
+D002,Dr. Kavita Chopra,2025-11-20,0
+D003,Dr. Suresh Desai,2025-11-20,Not Applicable
+D004,Dr. Arjun Joshi,2025-11-20,Not Applicable
+D005,Dr. Karan Mehta,2025-11-20,0
+D006,Dr. Meera Verma,2025-11-20,8
+D007,Dr. Rahul Joshi,2025-11-20,0
+D008,Dr. Manish Kapoor,2025-11-20,Leave
+D009,Dr. Amit Pandey,2025-11-20,5
+D010,Dr. Amit Bansal,2025-11-20,Not Applicable
+D011,Dr. Sneha Kapoor,2025-11-20,0
+D012,Dr. Rahul Bansal,2025-11-20,Not Applicable
+D013,Dr. Ritika Malhotra,2025-11-20,Not Applicable
+D014,Dr. Priya Mishra,2025-11-20,Not Applicable
+D015,Dr. Vikram Desai,2025-11-20,Leave
+D016,Dr. Kavita Gupta,2025-11-20,20
+D017,Dr. Amit Agarwal,2025-11-20,9
+D018,Dr. Shweta Rao,2025-11-20,0
+D019,Dr. Shweta Rao,2025-11-20,26
+D020,Dr. Karan Malhotra,2025-11-20,Not Applicable
+D001,Dr. Deepak Iyer,2025-11-21,Not Applicable
+D002,Dr. Kavita Chopra,2025-11-21,Not Applicable
+D003,Dr. Suresh Desai,2025-11-21,Not Applicable
+D004,Dr. Arjun Joshi,2025-11-21,Not Applicable
+D005,Dr. Karan Mehta,2025-11-21,Not Applicable
+D006,Dr. Meera Verma,2025-11-21,Not Applicable
+D007,Dr. Rahul Joshi,2025-11-21,Not Applicable
+D008,Dr. Manish Kapoor,2025-11-21,Not Applicable
+D009,Dr. Amit Pandey,2025-11-21,9
+D010,Dr. Amit Bansal,2025-11-21,0
+D011,Dr. Sneha Kapoor,2025-11-21,Leave
+D012,Dr. Rahul Bansal,2025-11-21,Not Applicable
+D013,Dr. Ritika Malhotra,2025-11-21,0
+D014,Dr. Priya Mishra,2025-11-21,5
+D015,Dr. Vikram Desai,2025-11-21,Not Applicable
+D016,Dr. Kavita Gupta,2025-11-21,18
+D017,Dr. Amit Agarwal,2025-11-21,9
+D018,Dr. Shweta Rao,2025-11-21,Not Applicable
+D019,Dr. Shweta Rao,2025-11-21,Leave
+D020,Dr. Karan Malhotra,2025-11-21,3
+D001,Dr. Deepak Iyer,2025-11-22,3
+D002,Dr. Kavita Chopra,2025-11-22,1
+D003,Dr. Suresh Desai,2025-11-22,Not Applicable
+D004,Dr. Arjun Joshi,2025-11-22,1
+D005,Dr. Karan Mehta,2025-11-22,2
+D006,Dr. Meera Verma,2025-11-22,Not Applicable
+D007,Dr. Rahul Joshi,2025-11-22,1
+D008,Dr. Manish Kapoor,2025-11-22,Not Applicable
+D009,Dr. Amit Pandey,2025-11-22,Not Applicable
+D010,Dr. Amit Bansal,2025-11-22,0
+D011,Dr. Sneha Kapoor,2025-11-22,2
+D012,Dr. Rahul Bansal,2025-11-22,Not Applicable
+D013,Dr. Ritika Malhotra,2025-11-22,0
+D014,Dr. Priya Mishra,2025-11-22,Not Applicable
+D015,Dr. Vikram Desai,2025-11-22,0
+D016,Dr. Kavita Gupta,2025-11-22,Not Applicable
+D017,Dr. Amit Agarwal,2025-11-22,Not Applicable
+D018,Dr. Shweta Rao,2025-11-22,0
+D019,Dr. Shweta Rao,2025-11-22,Not Applicable
+D020,Dr. Karan Malhotra,2025-11-22,Not Applicable
+D001,Dr. Deepak Iyer,2025-11-23,Not Applicable
+D002,Dr. Kavita Chopra,2025-11-23,Not Applicable
+D003,Dr. Suresh Desai,2025-11-23,Not Applicable
+D004,Dr. Arjun Joshi,2025-11-23,Not Applicable
+D005,Dr. Karan Mehta,2025-11-23,Not Applicable
+D006,Dr. Meera Verma,2025-11-23,Not Applicable
+D007,Dr. Rahul Joshi,2025-11-23,Not Applicable
+D008,Dr. Manish Kapoor,2025-11-23,Not Applicable
+D009,Dr. Amit Pandey,2025-11-23,Not Applicable
+D010,Dr. Amit Bansal,2025-11-23,Not Applicable
+D011,Dr. Sneha Kapoor,2025-11-23,Not Applicable
+D012,Dr. Rahul Bansal,2025-11-23,Not Applicable
+D013,Dr. Ritika Malhotra,2025-11-23,Not Applicable
+D014,Dr. Priya Mishra,2025-11-23,Not Applicable
+D015,Dr. Vikram Desai,2025-11-23,Not Applicable
+D016,Dr. Kavita Gupta,2025-11-23,Not Applicable
+D017,Dr. Amit Agarwal,2025-11-23,Not Applicable
+D018,Dr. Shweta Rao,2025-11-23,Not Applicable
+D019,Dr. Shweta Rao,2025-11-23,Not Applicable
+D020,Dr. Karan Malhotra,2025-11-23,Not Applicable
