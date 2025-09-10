@@ -271,6 +271,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 from fastapi import Request
 import uuid
+import json
 from datetime import datetime
 
 @prefix_router.post("/save_appointment")
@@ -289,8 +290,21 @@ async def save_appointment_to_postgres(request: Request):
     connection_uri = f"postgresql+psycopg2://{user}:{password}@{host}:{port}/{database}"
     engine = create_engine(connection_uri)
 
-    # --- Extract data from JSON payload ---
-    # appointment_data = request.json()  # payload dict
+    # --- Extract test results into test_taken dictionary ---
+    test_taken = {}
+    test_results = appointment_data.get("test_result", [])
+
+    if isinstance(test_results, list):
+        for test in test_results:
+            testname = test.get("testname")
+            interpretation = test.get("evaluation_result", {}) \
+                                .get("detailed_report", {}) \
+                                .get("interpretation")
+            if testname and interpretation:
+                test_taken[testname] = interpretation
+
+        # Serialize test_taken to JSON string
+    test_taken_json = json.dumps(test_taken)
 
     row = {
         "appointment_id": str(uuid.uuid4()),
@@ -298,6 +312,7 @@ async def save_appointment_to_postgres(request: Request):
         "name": appointment_data["patient_info"]["name"],
         "age": appointment_data["patient_info"]["age"],
         "gender": appointment_data["patient_info"]["gender"],
+        "test_taken": test_taken_json, 
         "appointment_date": appointment_data["date"],
         "doctor_name": appointment_data["doctor_details"]["Name"],
         "department": appointment_data["doctor_details"]["Department"],
