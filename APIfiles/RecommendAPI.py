@@ -78,13 +78,12 @@ async def recommend_doctors(request: Request):
     user_test = standardize_interpretations(user_test)
 
     # Loop over multiple tables and store with table names
-    table_names = ["test_segment", "appointments_df", "age_segment","dept_segment","leaves_df","doctors_df"]
+    table_names = ["test_segment", "appointment_load", "age_segment","dept_segment","doctors_df"]
 
     dfs = {name: fetch_table_from_postgres(name) for name in table_names}
 
     # Access like:
-    appointments_df=dfs["appointments_df"]
-    leaves_df=dfs["leaves_df"]
+    appointments_df=dfs["appointment_load"]
     age_segment=dfs["age_segment"]
     dept_segment=dfs["dept_segment"]
     doctors_df=dfs["doctors_df"]
@@ -160,7 +159,7 @@ async def recommend_doctors(request: Request):
     # -----------------------
     common_doctors = age_doctors & test_doctors & dept_doctors
 
-    availability = get_doctor_availability(appointments_df,leaves_df,user_date, common_doctors)
+    availability = get_doctor_availability(appointments_df,user_date, common_doctors)
 
     scores_df = compute_doctor_scores(doctors_df,availability, patient_gender)
     return scores_df
@@ -169,11 +168,11 @@ app.include_router(prefix_router)
 
 def fetch_table_from_postgres(table_name: str):
     schema="BHC"
-    user="postgres"
-    password="12345678"
-    host="localhost"
-    port=5432
-    database="agentdata"
+    user = "mhealthadmin"                    
+    password = "mhealth*2025"            
+    host = "57.159.27.80"
+    port = 5432
+    database = "mhealth_db"   
 
     # Create connection string
     connection_uri = f"postgresql+psycopg2://{user}:{password}@{host}:{port}/{database}"
@@ -189,44 +188,31 @@ def fetch_table_from_postgres(table_name: str):
 
     return df
 
-def get_doctor_availability(appointments_df,leaves_df,user_date, common_doctors: set):
-
-    leaves_df["Leave_Dates"] = pd.to_datetime(leaves_df["Leave_Dates"], format="%d-%m-%Y")
-
-    # Convert input date
+def get_doctor_availability(appointments_df, user_date, common_doctors: set):
+    # Convert input date to datetime
     user_date = pd.to_datetime(user_date, format="%Y-%m-%d")
 
-    # Step 1: find doctors on leave that day
-    doctors_on_leave = leaves_df.loc[
-        leaves_df["Leave_Dates"] == user_date, "Doctor_ID"
-    ].tolist()
+    # Filter appointments for the given date
+    filtered_df = appointments_df[pd.to_datetime(appointments_df["date"]) == user_date].copy()
 
-    # Step 2: get column name that matches user_date in appointment load
-    date_str = user_date.strftime("%Y-%m-%d (%A)")
-    if date_str not in appointments_df.columns:
-        raise ValueError(f"Date {date_str} not found in appointment load table")
+    # Keep only doctors in the common_doctors set
+    filtered_df = filtered_df[filtered_df["doctor_id"].isin(common_doctors)]
 
-    # Step 3: filter appointment load for that date
-    result_df = appointments_df[
-        ["Doctor ID", "Doctor Name", "Department", date_str]
-    ].copy()
-    result_df.rename(columns={date_str: "Load"}, inplace=True)
+    # Remove doctors marked as 'Leave' or 'Not Applicable'
+    filtered_df = filtered_df[
+        ~filtered_df["appointment_load"].isin(["Leave", "Not Applicable"])
+    ]
 
-    # Step 4: filter only common_doctors
-    result_df = result_df[result_df["Doctor ID"].isin(common_doctors)]
+    # Convert 'appointment_load' to numeric, coercing errors to NaN, then fill with 0
+    filtered_df["Load"] = pd.to_numeric(filtered_df["appointment_load"], errors="coerce").fillna(0)
 
-    # Step 5: remove doctors on leave
-    result_df = result_df[~result_df["Doctor ID"].isin(doctors_on_leave)]
+    # Keep only doctors with load > 0
+    available_doctors = filtered_df[filtered_df["Load"] > 0]
 
-    # Step 6: convert "Leave" text to 0 load
-    result_df["Load"] = pd.to_numeric(result_df["Load"], errors="coerce").fillna(0)
+    # Create a dictionary {doctor_id: load}
+    result = dict(zip(available_doctors["doctor_id"], available_doctors["Load"]))
 
-    # Step 7: keep only doctors with load > 0
-    result_df = result_df[result_df["Load"] > 0]
-
-    # Step 8: return dictionary
-    return dict(zip(result_df["Doctor ID"], result_df["Load"]))
-
+    return result
 
 def compute_doctor_scores(doctors_df,doctor_availability: dict, patient_gender: str):
 
@@ -279,12 +265,12 @@ async def save_appointment_to_postgres(request: Request):
 
     appointment_data = await request.json()
 
-    schema = "BHC"                     
-    user = "postgres"                    
-    password = "12345678"            
-    host = "localhost"
+    schema = "BHC"                       
+    user = "mhealthadmin"                    
+    password = "mhealth*2025"            
+    host = "57.159.27.80"
     port = 5432
-    database = "agentdata"   
+    database = "mhealth_db"   
     
     # Create connection string
     connection_uri = f"postgresql+psycopg2://{user}:{password}@{host}:{port}/{database}"
@@ -349,11 +335,11 @@ async def update_appointment_load(request: Request):
         formatted_date = datetime.strptime(date, "%Y-%m-%d").strftime("%Y-%m-%d")
     except ValueError:
         raise HTTPException(status_code=400, detail="Invalid date format. Expected YYYY-MM-DD.")                    
-    user = "postgres"                    
-    password = "12345678"            
-    host = "localhost"
+    user = "mhealthadmin"                    
+    password = "mhealth*2025"            
+    host = "57.159.27.80"
     port = 5432
-    database = "agentdata"   
+    database = "mhealth_db"   
     
     # Create connection string
     connection_uri = f"postgresql+psycopg2://{user}:{password}@{host}:{port}/{database}"
