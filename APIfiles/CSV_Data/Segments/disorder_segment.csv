@@ -1,0 +1,221 @@
+diagnosed_disorder,doctor_id,encounter_count
+Alcohol Use Disorder,D014,939
+Alcohol Use Disorder,D004,903
+Alcohol Use Disorder,D002,900
+Alcohol Use Disorder,D017,883
+Alcohol Use Disorder,D001,874
+Alcohol Use Disorder,D012,864
+Alcohol Use Disorder,D018,859
+Alcohol Use Disorder,D013,856
+Alcohol Use Disorder,D003,846
+Alcohol Use Disorder,D019,842
+Alcohol Use Disorder,D020,445
+Alcohol Use Disorder,D010,443
+Alcohol Use Disorder,D007,438
+Alcohol Use Disorder,D016,427
+Alcohol Use Disorder,D005,420
+Alcohol Use Disorder,D008,418
+Alcohol Use Disorder,D006,412
+Alcohol Use Disorder,D015,412
+Alcohol Use Disorder,D009,411
+Alcohol Use Disorder,D011,408
+Anxiety,D001,961
+Anxiety,D018,957
+Anxiety,D017,952
+Anxiety,D004,946
+Anxiety,D012,942
+Anxiety,D019,940
+Anxiety,D013,935
+Anxiety,D002,926
+Anxiety,D014,901
+Anxiety,D003,897
+Anxiety,D020,477
+Anxiety,D007,468
+Anxiety,D015,467
+Anxiety,D006,459
+Anxiety,D009,459
+Anxiety,D005,433
+Anxiety,D016,429
+Anxiety,D010,413
+Anxiety,D008,411
+Anxiety,D011,407
+Attention-Deficit/Hyperactivity Disorder (ADHD),D019,911
+Attention-Deficit/Hyperactivity Disorder (ADHD),D012,909
+Attention-Deficit/Hyperactivity Disorder (ADHD),D013,894
+Attention-Deficit/Hyperactivity Disorder (ADHD),D018,884
+Attention-Deficit/Hyperactivity Disorder (ADHD),D001,875
+Attention-Deficit/Hyperactivity Disorder (ADHD),D014,875
+Attention-Deficit/Hyperactivity Disorder (ADHD),D002,862
+Attention-Deficit/Hyperactivity Disorder (ADHD),D017,856
+Attention-Deficit/Hyperactivity Disorder (ADHD),D004,845
+Attention-Deficit/Hyperactivity Disorder (ADHD),D003,788
+Attention-Deficit/Hyperactivity Disorder (ADHD),D005,481
+Attention-Deficit/Hyperactivity Disorder (ADHD),D009,458
+Attention-Deficit/Hyperactivity Disorder (ADHD),D010,445
+Attention-Deficit/Hyperactivity Disorder (ADHD),D015,433
+Attention-Deficit/Hyperactivity Disorder (ADHD),D016,432
+Attention-Deficit/Hyperactivity Disorder (ADHD),D020,428
+Attention-Deficit/Hyperactivity Disorder (ADHD),D008,427
+Attention-Deficit/Hyperactivity Disorder (ADHD),D007,422
+Attention-Deficit/Hyperactivity Disorder (ADHD),D011,418
+Attention-Deficit/Hyperactivity Disorder (ADHD),D006,397
+Autism Spectrum Disorder (ASD),D001,974
+Autism Spectrum Disorder (ASD),D002,964
+Autism Spectrum Disorder (ASD),D004,944
+Autism Spectrum Disorder (ASD),D012,941
+Autism Spectrum Disorder (ASD),D018,937
+Autism Spectrum Disorder (ASD),D003,935
+Autism Spectrum Disorder (ASD),D013,933
+Autism Spectrum Disorder (ASD),D017,931
+Autism Spectrum Disorder (ASD),D014,894
+Autism Spectrum Disorder (ASD),D019,839
+Autism Spectrum Disorder (ASD),D005,470
+Autism Spectrum Disorder (ASD),D006,461
+Autism Spectrum Disorder (ASD),D008,457
+Autism Spectrum Disorder (ASD),D016,455
+Autism Spectrum Disorder (ASD),D015,454
+Autism Spectrum Disorder (ASD),D010,436
+Autism Spectrum Disorder (ASD),D011,429
+Autism Spectrum Disorder (ASD),D007,428
+Autism Spectrum Disorder (ASD),D009,421
+Autism Spectrum Disorder (ASD),D020,417
+Bipolar Disorder,D012,923
+Bipolar Disorder,D018,923
+Bipolar Disorder,D002,919
+Bipolar Disorder,D004,912
+Bipolar Disorder,D014,874
+Bipolar Disorder,D017,860
+Bipolar Disorder,D001,844
+Bipolar Disorder,D003,840
+Bipolar Disorder,D019,836
+Bipolar Disorder,D013,826
+Bipolar Disorder,D015,480
+Bipolar Disorder,D008,455
+Bipolar Disorder,D005,448
+Bipolar Disorder,D010,443
+Bipolar Disorder,D020,436
+Bipolar Disorder,D011,433
+Bipolar Disorder,D007,425
+Bipolar Disorder,D006,424
+Bipolar Disorder,D016,415
+Bipolar Disorder,D009,404
+Borderline Personality Disorder (BPD),D002,925
+Borderline Personality Disorder (BPD),D017,909
+Borderline Personality Disorder (BPD),D014,884
+Borderline Personality Disorder (BPD),D012,868
+Borderline Personality Disorder (BPD),D003,852
+Borderline Personality Disorder (BPD),D001,849
+Borderline Personality Disorder (BPD),D004,849
+Borderline Personality Disorder (BPD),D019,846
+Borderline Personality Disorder (BPD),D013,835
+Borderline Personality Disorder (BPD),D018,829
+Borderline Personality Disorder (BPD),D008,468
+Borderline Personality Disorder (BPD),D010,465
+Borderline Personality Disorder (BPD),D009,440
+Borderline Personality Disorder (BPD),D011,433
+Borderline Personality Disorder (BPD),D005,428
+Borderline Personality Disorder (BPD),D020,426
+Borderline Personality Disorder (BPD),D016,421
+Borderline Personality Disorder (BPD),D006,420
+Borderline Personality Disorder (BPD),D007,420
+Borderline Personality Disorder (BPD),D015,413
+Depression,D018,908
+Depression,D019,905
+Depression,D001,897
+Depression,D003,888
+Depression,D012,880
+Depression,D014,877
+Depression,D013,862
+Depression,D017,843
+Depression,D002,832
+Depression,D004,812
+Depression,D015,481
+Depression,D007,447
+Depression,D016,446
+Depression,D020,445
+Depression,D009,435
+Depression,D010,431
+Depression,D008,424
+Depression,D011,418
+Depression,D005,416
+Depression,D006,413
+Drug Use Disorder,D017,903
+Drug Use Disorder,D001,868
+Drug Use Disorder,D018,858
+Drug Use Disorder,D013,855
+Drug Use Disorder,D014,854
+Drug Use Disorder,D004,845
+Drug Use Disorder,D019,837
+Drug Use Disorder,D012,828
+Drug Use Disorder,D003,817
+Drug Use Disorder,D002,811
+Drug Use Disorder,D010,464
+Drug Use Disorder,D015,450
+Drug Use Disorder,D016,441
+Drug Use Disorder,D006,439
+Drug Use Disorder,D009,438
+Drug Use Disorder,D011,427
+Drug Use Disorder,D020,419
+Drug Use Disorder,D005,413
+Drug Use Disorder,D007,411
+Drug Use Disorder,D008,402
+Eating Disorders,D019,906
+Eating Disorders,D003,899
+Eating Disorders,D001,895
+Eating Disorders,D004,872
+Eating Disorders,D013,866
+Eating Disorders,D018,850
+Eating Disorders,D012,845
+Eating Disorders,D002,843
+Eating Disorders,D014,839
+Eating Disorders,D017,834
+Eating Disorders,D005,484
+Eating Disorders,D015,457
+Eating Disorders,D006,447
+Eating Disorders,D007,447
+Eating Disorders,D020,435
+Eating Disorders,D009,434
+Eating Disorders,D010,419
+Eating Disorders,D016,417
+Eating Disorders,D008,405
+Eating Disorders,D011,386
+Obsessive-Compulsive Disorder (OCD),D012,998
+Obsessive-Compulsive Disorder (OCD),D002,914
+Obsessive-Compulsive Disorder (OCD),D003,913
+Obsessive-Compulsive Disorder (OCD),D004,908
+Obsessive-Compulsive Disorder (OCD),D019,907
+Obsessive-Compulsive Disorder (OCD),D001,903
+Obsessive-Compulsive Disorder (OCD),D018,891
+Obsessive-Compulsive Disorder (OCD),D017,887
+Obsessive-Compulsive Disorder (OCD),D013,885
+Obsessive-Compulsive Disorder (OCD),D014,883
+Obsessive-Compulsive Disorder (OCD),D005,470
+Obsessive-Compulsive Disorder (OCD),D015,455
+Obsessive-Compulsive Disorder (OCD),D006,453
+Obsessive-Compulsive Disorder (OCD),D007,443
+Obsessive-Compulsive Disorder (OCD),D009,442
+Obsessive-Compulsive Disorder (OCD),D010,439
+Obsessive-Compulsive Disorder (OCD),D011,436
+Obsessive-Compulsive Disorder (OCD),D020,434
+Obsessive-Compulsive Disorder (OCD),D008,432
+Obsessive-Compulsive Disorder (OCD),D016,407
+Post-Traumatic Stress Disorder (PTSD),D018,985
+Post-Traumatic Stress Disorder (PTSD),D001,936
+Post-Traumatic Stress Disorder (PTSD),D014,935
+Post-Traumatic Stress Disorder (PTSD),D019,913
+Post-Traumatic Stress Disorder (PTSD),D017,891
+Post-Traumatic Stress Disorder (PTSD),D003,880
+Post-Traumatic Stress Disorder (PTSD),D013,879
+Post-Traumatic Stress Disorder (PTSD),D004,878
+Post-Traumatic Stress Disorder (PTSD),D002,865
+Post-Traumatic Stress Disorder (PTSD),D012,849
+Post-Traumatic Stress Disorder (PTSD),D005,458
+Post-Traumatic Stress Disorder (PTSD),D011,457
+Post-Traumatic Stress Disorder (PTSD),D006,453
+Post-Traumatic Stress Disorder (PTSD),D008,450
+Post-Traumatic Stress Disorder (PTSD),D007,441
+Post-Traumatic Stress Disorder (PTSD),D020,437
+Post-Traumatic Stress Disorder (PTSD),D009,433
+Post-Traumatic Stress Disorder (PTSD),D010,433
+Post-Traumatic Stress Disorder (PTSD),D016,427
+Post-Traumatic Stress Disorder (PTSD),D015,380

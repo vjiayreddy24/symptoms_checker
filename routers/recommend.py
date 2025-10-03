@@ -5,7 +5,11 @@ import ast
 from fastapi import FastAPI,APIRouter, Request, HTTPException
 import uuid
 import json
-
+# from db.models import Appointment,AppointmentLoad,AgeSegment,DepartmentSegment,DoctorDF,TestSegment
+from schemas.recommend_dr import RecommendDoctorsRequest,SaveAppointmentRequest,UpdateAppointmentLoadRequest,DoctorDetails,PatientInfo
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 # Standardization map
 STANDARDIZATION_MAP = {
     "Minimal": [
@@ -39,6 +43,8 @@ host = "57.159.27.80"
 port = 5432
 database = "mhealth_db" 
 
+router = APIRouter(prefix="/book-appointment", tags=["book-appointment"])
+
 def standardize_interpretations(test_results: dict) -> dict:
     """
     Takes a dictionary of test results and returns standardized interpretations.
@@ -61,17 +67,17 @@ app = FastAPI()
 prefix_router = APIRouter(prefix="/book-appointment")
 
 @prefix_router.post("/recommend_doctors")
-async def recommend_doctors(request: Request):
+async def recommend_doctors(payload: RecommendDoctorsRequest):
 
-    payload = await request.json()
+    # payload = await request.json()
 
-    # --- Extract patient info ---
-    patient_info = payload.get("patient_info", {})
-    user_age = patient_info.get("age")
-    patient_gender = patient_info.get("gender")
+    # # --- Extract patient info ---
+    # patient_info = payload.get("patient_info", {})
+    # user_age = patient_info.get("age")
+    # patient_gender = patient_info.get("gender")
 
-    # --- Extract appointment date ---
-    user_date = payload.get("date")
+    # # --- Extract appointment date ---
+    # user_date = payload.get("date")
 
     # # --- Extract test result in desired format ---
     # test_result = payload.get("test_result", {})
@@ -82,7 +88,14 @@ async def recommend_doctors(request: Request):
     #     .get("interpretation")
     # )
         # --- Extract test results ---
-    test_results = payload.get("test_result", [])
+    # test_results = payload.get("test_result", [])
+
+    patient_info = payload.patient_info
+    user_age = patient_info.age
+    patient_gender = patient_info.gender
+    user_date = payload.date
+    test_results = payload.test_result
+
     user_test = {}
 
     for test in test_results:
@@ -255,7 +268,7 @@ def compute_doctor_scores(doctors_df, doctor_availability: dict, patient_gender:
     """
 
     max_daily_capacity = 60
-    doctor_gender_map = doctors_df.set_index("Doctor ID")["Gender"].to_dict()
+    doctor_gender_map = doctors_df.set_index("doctor_id")["gender"].to_dict()
 
     # Get 3-letter day code for given date
     day_code = datetime.strptime(user_date, "%Y-%m-%d").strftime("%a")  # e.g. 'Mon', 'Tue'
@@ -279,7 +292,7 @@ def compute_doctor_scores(doctors_df, doctor_availability: dict, patient_gender:
         FinalScore = (0.4 * A) + (0.4 * L) + (0.2 * G)
 
         rows.append({
-            "Doctor ID": doctor_id,
+            "doctor_id": doctor_id,
             "AppointmentsToday": load_today,
             "Max load": A,
             "Load Balancing": L,
@@ -290,13 +303,13 @@ def compute_doctor_scores(doctors_df, doctor_availability: dict, patient_gender:
     top_dr = pd.DataFrame(rows).sort_values("FinalScore", ascending=False).reset_index(drop=True)
 
     # Merge with doctor details
-    top_dr_full = top_dr.merge(doctors_df, on="Doctor ID", how="left")
+    top_dr_full = top_dr.merge(doctors_df, on="doctor_id", how="left")
 
     # Extract slots only for the given day
     expanded_slots = []
     for _, row in top_dr_full.iterrows():
-        days = row["Available Days"].split(",")
-        slots = row["Available Slots"].split(",")
+        days = row["available_days"].split(",")
+        slots = row["available_slots"].split(",")
 
         intervals_today = []
         if day_code in days:
@@ -310,56 +323,43 @@ def compute_doctor_scores(doctors_df, doctor_availability: dict, patient_gender:
     top_dr_full["Timeslots on " + user_date] = expanded_slots
 
     return top_dr_full[[
-        "Doctor ID", "Name", "Gender", "Department","Available Days", "Available Slots",
+        "doctor_id", "name", "gender", "department","available_days", "available_slots",
          "Timeslots on " + user_date, "FinalScore"
     ]]
 EMAIL_HOST_USER = 'sswain@quantum-i.ai'
 EMAIL_HOST_PASSWORD = 'jcvklhrggkdwljge'
 
 @prefix_router.post("/save_appointment")
-async def save_appointment_to_postgres(request: Request):
+async def save_appointment_to_postgres(payload: SaveAppointmentRequest):
 
-    appointment_data = await request.json()
+    # appointment_data = await request.json()
 
     # Create connection string
     connection_uri = f"postgresql+psycopg2://{user}:{password}@{host}:{port}/{database}"
     engine = create_engine(connection_uri)
 
-    # --- Extract test results into test_taken dictionary ---
-    test_taken = {}
-    test_results = appointment_data.get("test_result", [])
-
-    if isinstance(test_results, list):
-        for test in test_results:
-            testname = test.get("testname")
-            interpretation = test.get("evaluation_result", {}) \
-                                .get("detailed_report", {}) \
-                                .get("interpretation")
-            if testname and interpretation:
-                test_taken[testname] = interpretation
-
-        # Serialize test_taken to JSON string
-    test_taken_json = json.dumps(test_taken)
+    # Serialize test_taken to JSON string
+    # test_taken_json = json.dumps(test_taken)
     appointment_id=str(uuid.uuid4())
-    pname=appointment_data["patient_info"]["name"]
-    doctor_name=appointment_data["doctor_details"]["Name"]
-    department=appointment_data["doctor_details"]["Department"]
-    time_slots=appointment_data["doctor_details"]["Available Slots"]
-    appointment_date=appointment_data["date"]
-    to_email=appointment_data["patient_info"]["email"]
+    pname=payload.patient_info.name
+    doctor_name=payload.doctor_details.Name
+    department=payload.doctor_details.Department
+    time_slots=payload.doctor_details.Available_Slots
+    appointment_date=payload.date,
+    to_email=payload.patient_info.email
 
     row = {
         "appointment_id": appointment_id,
-        "patient_id": appointment_data["patient_info"]["id"], 
-        "name": pname,
-        "age": appointment_data["patient_info"]["age"],
-        "gender": appointment_data["patient_info"]["gender"],
-        "test_taken": test_taken_json, 
-        "appointment_date": appointment_date,
-        "doctor_id": appointment_data["doctor_details"]["ID"],
-        "doctor_name": doctor_name,
-        "department": department,
-        "time_slots": time_slots,
+        "patient_id": payload.patient_info.id,
+        "name": payload.patient_info.name,
+        "age": payload.patient_info.age,
+        "gender": payload.patient_info.gender,
+        "test_taken": payload.test_result,  # stays dict → JSON automatically
+        "appointment_date": payload.date,
+        "doctor_id": payload.doctor_details.ID,
+        "doctor_name": payload.doctor_details.Name,
+        "department": payload.doctor_details.Department,
+        "time_slots": payload.doctor_details.Available_Slots,
         "booking_timestamp": datetime.now() 
     }
 
@@ -370,7 +370,10 @@ async def save_appointment_to_postgres(request: Request):
     df.to_sql("appointment_table", engine, schema=schema, if_exists="append", index=False)
     print("Appointment saved")
 
-    df=update_appointment_load(appointment_data)
+    df=update_appointment_load(UpdateAppointmentLoadRequest(
+        date=payload.date,
+        doctor_details=payload.doctor_details
+    ))
     print("updation",df)
 
     # --- Email content ---
@@ -417,10 +420,10 @@ def format_date_with_day(date_str):
     return date_obj.strftime("%Y-%m-%d (%A)")
 
 # @prefix_router.post("/update_appointment_load")
-async def update_appointment_load(update_data):
+async def update_appointment_load(update_data: UpdateAppointmentLoadRequest):
 
-    date=update_data["date"]
-    doctor_id=update_data["doctor_details"]["ID"]
+    date = update_data.date
+    doctor_id = update_data.doctor_details.ID
     formatted_date = format_date_with_day(date)
 
         # Convert the date to 'yyyy-mm-dd' format
@@ -451,7 +454,7 @@ async def update_appointment_load(update_data):
         conn.commit()
 
         if result.rowcount == 0:
-            raise HTTPException(status_code=404, detail="Doctor ID not found")
+            raise HTTPException(status_code=404, detail="doctor_id not found")
 
     return {"message": f"✅ Updated Doctor {doctor_id} on {formatted_date}"}
     

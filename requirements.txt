@@ -14,3 +14,4 @@ fastapi
 psycopg2-binary
 sqlalchemy
 requests
+email-validator==2.3.0

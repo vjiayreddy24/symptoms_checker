@@ -1,4 +1,4 @@
-﻿doctor_id,name,gender,department,available_days,available_slots
+﻿Doctor ID,Name,Gender,Department,Available Days,Available Slots
 D001,Dr. Deepak Iyer,Male,Psychiatry,"Thu,Mon,Sat","13:00-14:00,15:00-16:00,12:00-13:00"
 D002,Dr. Kavita Chopra,Female,Psychiatry,"Wed,Sat,Thu","16:00-17:00,14:00-15:00,12:00-13:00"
 D003,Dr. Suresh Desai,Male,Psychiatry,"Wed,Tue,Mon","14:00-15:00,14:00-15:00,12:00-13:00"
